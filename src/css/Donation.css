@@ -1,0 +1,141 @@
+.donation-form-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 5vh 5vw;
+    h2{
+        /* border: 2px solid red; */
+        font-size: 5vmin;
+    }
+    h3{
+        padding: 2vh 0;
+        font-size: 3vmin;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-form-container h2, .donation-form-container h3 {
+    text-align: center;
+}
+
+.amount-selection, .personal-details, .payment-method, .confirmation {
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+}
+.amount-selection{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 0 3vw;
+    label{
+        &>input:nth-child(1){
+            scale: 1.5;
+        }
+        display: flex;
+        gap: 1rem;
+        font-size: 2.7vmin;
+    }
+    & > div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5vw;
+        justify-content: center;
+    }
+    & > label{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        input:nth-child(2){
+            width: min(400px, 70vw);
+            border-radius: 20px;
+        }
+    }
+}
+
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & > div{
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+        justify-content: center;
+        gap: 1vh;
+        label{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            gap: 1.2rem;
+            input{
+                border-radius: 20px;
+                width: min(400px, 60vw);
+            }
+        }
+    }
+
+}
+
+.payment-method{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    h3{
+        width: 100%;
+    }
+    gap: 2vw;
+    label{
+        display: flex;
+        gap: 1vw;
+        input{
+            scale: 1.5;
+        }
+    }
+}
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    padding: 0 2vw;
+    label{
+        gap: 2vw;
+        input{
+            scale: 1.5;
+        }
+    }
+}
+
+label {
+    display: flex;
+    margin: 10px 0;
+    input{
+        border: 1px solid black;
+    }
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    width: 20vw;
+    padding: 2vh 2vw;
+    font-size: 2.5vmin;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 23px;
+}
+
+button:hover {
+    background: #45a049;
+}
