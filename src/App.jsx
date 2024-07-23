@@ -6,6 +6,7 @@ const App = () => {
         <div>
             <Nav />
             {/* Other components can go here */}
+            
         </div>
     );
 };
