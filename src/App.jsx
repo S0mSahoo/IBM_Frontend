@@ -1,19 +1,13 @@
-import { useState } from 'react'
+import React from 'react';
+import Nav from './components/Nav';
 
-import './App.css';
-function App() {
+const App = () => {
+    return (
+        <div>
+            <Nav />
+            {/* Other components can go here */}
+        </div>
+    );
+};
 
-  return (
-    <div className=''>
-      <p className='ch'>Hello</p>
-      <p className="text-6xl font-bold underline">
-        Hello world!
-      </p>
-      <p className="text-6xl font-bold underline">
-        checking
-      </p>
-    </div>
-  )
-}
-
-export default App
+export default App;
