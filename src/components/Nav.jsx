@@ -65,6 +65,7 @@ export default function Nav() {
                 <div id="n_right">
                     <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5>
                     <Link to='/donation'>Donate</Link>
+                    <Link to='/Impacts'>Impact</Link>
                 </div>
                 <div id="n_ham">
                     <svg id="hamburger" onClick={openHam} xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" className="bi bi-list"
@@ -79,6 +80,8 @@ export default function Nav() {
                         <div id="n_upper">
                             <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5>
                             <Link to='/donation'>Donate</Link>
+                            <Link to='/Impacts'>Impact</Link>
+                            
                         </div>
                         <div id="n_lower">
                             <li>HealthCare</li>

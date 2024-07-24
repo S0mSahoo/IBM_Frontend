@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './components/Nav'; // Corrected import statement
-import Donation from './components/Donation';
+import Donation from './components/Donation'; 
+import Impacts from './components/Impacts';
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,6 +15,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/donation' element={<Donation />} />
+          <Route path='/Impacts' element={<Impacts />} />
+
         </Routes>
       </div>
     </Router>
