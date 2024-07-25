@@ -14,9 +14,9 @@ function App() {
       <div>
         <Nav />
         <Routes>
+          {/* <Route path='/' element={}></Route> */}
           <Route path='/donation' element={<Donation />} />
-          <Route path='/Impacts' element={<Impacts />} />
-
+          <Route path='/impacts' element={<Impacts />} />
         </Routes>
       </div>
     </Router>
