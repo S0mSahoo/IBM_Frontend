@@ -1,3 +1,6 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
 #nav{
     /* border: 2px solid red; */
     width: 100%;
@@ -42,6 +45,7 @@
     align-items: center;
     h5{
         font-size: 15px;
+        font-weight: 700;
         span{
             color: royalblue;
             &:hover{
@@ -122,6 +126,9 @@
         justify-content: center;
         padding: 1rem;
         font-size: 3.2vmin;
+        h5{
+            font-weight: 600;
+        }
         & > a{
             border: 2px solid black;
             padding: .5rem 1rem;
@@ -131,6 +138,7 @@
             text-decoration: none;
             transition: all .2s ease-in-out;
             font-size: .8em;
+            font-weight: 500;
             &:hover{
                 scale: 1.02;
                 box-shadow: 0 0 10px grey;
@@ -174,7 +182,7 @@
             }
             &:hover::after{
                 visibility: visible;
-                width: 97%;
+                width: 100%;
             }
         }
     }
