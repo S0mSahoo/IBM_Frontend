@@ -1,8 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-#nav{
-    /* border: 2px solid red; */
 #nav {
     width: 100%;
     display: flex;
