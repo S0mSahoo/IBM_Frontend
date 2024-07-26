@@ -29,7 +29,6 @@ function App() {
           <Route path='/articles' element={<Articles/>} />
           <Route path='/videos' element={<Videos/>} />
           <Route path='/ebooks' element={<EBooks/>} />
-        
         </Routes>
       </div>
     </Router>

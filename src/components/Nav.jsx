@@ -46,6 +46,7 @@ export default function Nav() {
     }
 
     function closeHam() {
+        // console.log('Hello')
         document.getElementById('n_cross').style.opacity = '0';
         document.getElementById('n_cross').style.zIndex = '-1';
     }
@@ -53,14 +54,17 @@ export default function Nav() {
     return (
         <div>
             <div id="nav">
-                <div id="n_left">
-                    <span>HNN</span>
-                </div>
+                <Link to='/'>
+                    <div id="n_left">
+                        <span>HNN</span>
+                    </div>
+                </Link>
                 <div id="n_mid">
-                    <li>HealthCare</li>
-                    <li>Nutrition</li>
-                    <li>Services</li>
-                    <li>About Us</li>
+                    <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
+                    <li onClick={closeHam}><Link to='/'>Nutrition</Link></li>
+                    <li onClick={closeHam}><Link to='/'>Services</Link></li>
+                    <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
+                    <li onClick={closeHam}>About Us</li>
                 </div>
                 <div id="n_right">
                     <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5>
@@ -81,10 +85,11 @@ export default function Nav() {
                             <Link to='/donation' onClick={closeHam}>Donate</Link>
                         </div>
                         <div id="n_lower">
-                            <li>HealthCare</li>
-                            <li>Nutrition</li>
-                            <li>Services</li>
-                            <li>About Us</li>
+                            <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
+                            <li onClick={closeHam}><Link to='/'>Nutrition</Link></li>
+                            <li onClick={closeHam}><Link to='/'>Services</Link></li>
+                            <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
+                            <li onClick={closeHam}>About Us</li>
                         </div>
                     </div>
                 </div>
