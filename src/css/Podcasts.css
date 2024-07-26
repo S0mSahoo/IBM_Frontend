@@ -1,0 +1,40 @@
+.podcasts-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.podcasts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+   
+}
+
+.podcasts-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.podcasts-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.podcasts-card h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.podcasts-card p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.podcasts-card:hover {
+    box-shadow:2px 0 6px rgb(255, 255, 255,0.5); 
+}

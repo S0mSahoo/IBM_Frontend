@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Mental Well-being",
+        "image": "",
+        "owner": "Stephanie Kaur",
+        "content": "https://open.spotify.com/show/1Sg3jemwLg5mEHpiUTaCOT"
+    },
+    {
+        "id": 2,
+        "title": "I AM Affirmations",
+        "image": "",
+        "owner": "Celi",
+        "content": "https://open.spotify.com/show/7LpbP2EBLrCizbimxkpNdW"
+    },
+    {
+        "id": 3,
+        "title": "Your Better Mental Wellbeing",
+        "image": "",
+        "owner": "Boots Digital Health",
+        "content": "https://open.spotify.com/show/77ZU9m27HVrJRK1N3QG4BM"
+    },
+    {
+        "id": 4,
+        "title": "The ADHD Women's Wellbeing",
+        "image": "",
+        "owner": "Kate Moryoussef",
+        "content": "https://open.spotify.com/show/57RaSl1REwOWrAZStSg1tn"
+    },
+    {
+        "id": 5,
+        "title": "The Doctor Happy Podcast",
+        "image": "",
+        "owner": "Talkbox",
+        "content": "https://open.spotify.com/show/28JOKYm9szQetyKyYo2BGg"
+    },
+    {
+        "id": 6,
+        "title": "Daily Mental fit bit",
+        "image": "",
+        "owner": "APT mental gym",
+        "content": "https://open.spotify.com/show/4i462i81JzKUXoWqGgCGJw"
+    },
+    {
+        "id": 7,
+        "title": "The Habit Coach",
+        "image": "",
+        "owner": "Ashdin Doctor",
+        "content": "https://open.spotify.com/show/1C53AFxFCRpyexwvfD5337"
+    },
+    {
+        "id": 8,
+        "title": "The Habit Coach",
+        "image": "",
+        "owner": "Ashdin Doctor",
+        "content": "https://open.spotify.com/show/1C53AFxFCRpyexwvfD5337"
+    }
+]
