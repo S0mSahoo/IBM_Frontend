@@ -29,6 +29,7 @@
 }
 .pod-img-cont{
     background-color: white;
+    margin: auto;
     width: 30%;
 }
 
@@ -55,17 +56,17 @@
     justify-content: space-between;
 }
 .pod-title{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: black;
     margin-bottom: 0.5em;
 }
 .owner {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: royalblue;
     margin-top: 10px;
 }
 .listen {
-    border: 0.2em solid black;
+    border: 0.1em solid black;
     font-size: 1em;
     background-color: red;
     color: white;
@@ -73,10 +74,12 @@
     padding: 0.5em 1em;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px black;
 }
 .listen:hover {
-    background-color: rgb(193, 1, 1);
+    background-color: rgb(219, 5, 5);
     color: white;
-    border: 0.2em solid black;
+    box-shadow: 0 0;
+    /* border: 0.1em solid black; */
     transition: 0.3s ease-in-out;
 }
