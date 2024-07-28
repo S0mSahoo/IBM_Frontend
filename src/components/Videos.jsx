@@ -1,16 +1,29 @@
-import React from 'react'
+import React from 'react';
+import '../css/Videos.css';
+import videos from '../data/videos.json';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Videos = () => {
   return (
-    <div>
-      <div>
-        <h1 className='text-center align-center text-5xl my-8'>Videos 📺</h1>
+    <div className='parent-container'>
+      <div className='heading-container'>
+        <h1 className='heading'><span>Wellness Watch</span> Top Health Videos 📺</h1>
       </div>
-      <div>
-        
-      </div>        
+      
+      <div className='video-container'>
+        {videos.map((video) => (
+          <div className='video-content' key={video.id}>
+            <div class="iframe-video ratio ratio-21x9">
+              <iframe src={video.content} title="YouTube video" allowfullscreen></iframe>
+            </div>
+              <h2>{video.title}</h2>
+              <p>{video.owner}</p>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Videos
+export default Videos;
