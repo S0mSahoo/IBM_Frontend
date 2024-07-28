@@ -1,0 +1,41 @@
+.parent-container{
+  max-width: 70%;
+  min-width: 69%;
+  margin: auto;
+}
+.heading{
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.heading > span{
+  color: royalblue;
+}
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-content{
+  /* background-color: rgb(193, 192, 192); */
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.video-content > h2{
+  padding-top: 1rem;
+  font-size: 1.8rem;
+}
+.video-content > p{
+  color: rgb(104, 104, 104);
+}
+.iframe-video{
+    height: 500px;
+    border-radius: 10px;
+}
+.thumbnail{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}

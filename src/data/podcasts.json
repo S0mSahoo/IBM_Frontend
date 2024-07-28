@@ -50,9 +50,93 @@
     },
     {
         "id": 8,
-        "title": "The Habit Coach",
+        "title": "Fit,Healthy&Happy Podcast",
         "image": "",
-        "owner": "Ashdin Doctor",
-        "content": "https://open.spotify.com/show/1C53AFxFCRpyexwvfD5337"
+        "owner": "Josh and KG",
+        "content": "https://open.spotify.com/episode/1I5oF3J6h1BT7xFFOCuXG0?si=cdF2t0aMQFC_3CthaCxMsA"
+    },
+    {
+        "id": 9,
+        "title": "Fit,Healthy&Happy Podcast",
+        "image": "",
+        "owner": "Josh and KG",
+        "content": "https://open.spotify.com/episode/1I5oF3J6h1BT7xFFOCuXG0?si=cdF2t0aMQFC_3CthaCxMsA"
+    },
+    {
+        "id": 10,
+        "title": "Cushing's Syndrome",
+        "image": "",
+        "owner": "DR.Thomas Watchman",
+        "content": "https://open.spotify.com/episode/2oiwVqI2IURjbCUF2saYVwFit,Healthy&Happy Podcast"
+    },
+    {
+        "id": 11,
+        "title": "Adrenal insufficiency",
+        "image": "",
+        "owner": "DR.Thomas Watchman",
+        "content": "https://open.spotify.com/episode/5F8t8LaGnzcjeeGiOzyxuk?si=TSaGVjWlS_q9xd9vDkDIPg&nd=1&dlsi=f763d8691d1942a8"
+    },
+    {
+        "id": 12,
+        "title": "The Science of Muscle Growth",
+        "image": "",
+        "owner": "DR.Gabrielle Lyon",
+        "content": "https://open.spotify.com/episode/2bOOWr0xo0kyPgOhVjZWaS?si=HcVy3-f5TsiZV-ZgvQYFRQ&nd=1&dlsi=0833d919f9644ed4"
+    },
+    {
+        "id": 13,
+        "title": "Protein Intake & Building Muscle Mass",
+        "image": "",
+        "owner": "Erin & Angelo Keely ",
+        "content": "https://open.spotify.com/episode/6LsvNAFkXzJSFFQcV0ZdQE?si=CmQ6B-FoQXexx_6hCjyosg&nd=1&dlsi=e34461ba5332408e"
+    },
+    {
+        "id": 14,
+        "title": "Exercise,nutrition and recovery for women",
+        "image": "",
+        "owner": "Alyssa Olenick",
+        "content": "https://open.spotify.com/episode/1hIyI0zrXMmAvrLjQyCP2y?si=n9WtVxUcTYipVd58U7eG9g&nd=1&dlsi=f7061ab360fc47c0"
+    },
+    {
+        "id": 15,
+        "title": "Transfroming Loves through Yoga",
+        "image": "",
+        "owner": "Saloni Anand",
+        "content": "https://open.spotify.com/episode/2H9Kx2cisZinYbklxFwAz3?si=xLXZ7_TMSUibY6_1-wX-Zg&nd=1&dlsi=f9cf826282644f1a"
+    },
+    {
+        "id": 16,
+        "title": "Leukaemia",
+        "image": "",
+        "owner": "DR.Thomas Watchman",
+        "content": "https://open.spotify.com/episode/4SWVuQsRjyqkgx15DeGYeB?si=hMuQDNNFQWCjZrymFXzHwA&nd=1&dlsi=ed080bd33fcb4723"
+    },
+    {
+        "id": 17,
+        "title": "Myeloma",
+        "image": "",
+        "owner": "DR.Thomas Watchman",
+        "content": "https://open.spotify.com/episode/2cVR8NPbyCUNJz1UCwdIfG?si=HXnPI8FTQW6Lk4xP0Z-j-Q&nd=1&dlsi=f44f90b6cc37486b"
+    },
+    {
+        "id": 18,
+        "title": "Rheumatoid Arthritis",
+        "image": "",
+        "owner": "DR.Thomas Watchman",
+        "content": "https://open.spotify.com/episode/3tMth3yiGoIRJnqH7swTm4?si=G2GqNaz3TlyILPyfnp4KjA&nd=1&dlsi=2b9c98e935bd498e"
+    },
+    {
+        "id": 19,
+        "title": "How to Improve Sleep Quality & Duration ",
+        "image": "",
+        "owner": "KG and Josh",
+        "content": "https://open.spotify.com/episode/3mnr6o3JPRHT7IhQdLRHmD?si=7HzRYuasTGaa8psjVMeBTA&nd=1&dlsi=c80bccd40ed44207"
+    },
+    {
+        "id": 20,
+        "title": "Fitness Toolkit:Protocol & Tools to Optimize Physical Health",
+        "image": "",
+        "owner": "Simon Kocourek",
+        "content": "https://open.spotify.com/episode/5LYlDlDu61KTirMe46YERi?si=soD3Bh5wRhmeyPshZ8C3FQ&nd=1&dlsi=ea81f1ee11f0438a"
     }
 ]
