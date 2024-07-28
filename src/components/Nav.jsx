@@ -43,12 +43,14 @@ export default function Nav() {
     function openHam() {
         document.getElementById('n_cross').style.opacity = '1';
         document.getElementById('n_cross').style.zIndex = '1';
+        document.getElementById('n_cross').style.visibility = 'visible';
     }
 
     function closeHam() {
         // console.log('Hello')
         document.getElementById('n_cross').style.opacity = '0';
         document.getElementById('n_cross').style.zIndex = '-1';
+        document.getElementById('n_cross').style.visibility = 'hidden';
     }
 
     return (
