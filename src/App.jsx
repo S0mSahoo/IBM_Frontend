@@ -14,6 +14,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Homepage from './components/Homepage';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <div>
         <Nav />
         <Routes>
-          <Route path='/' element={<EdResources/>} />
+          <Route path='/' element={<Homepage/>} />
           <Route path='/donation' element={<Donation />} />
           <Route path='/Impacts' element={<Impacts />} />
           

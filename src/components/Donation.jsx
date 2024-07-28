@@ -24,7 +24,7 @@ const Donation = () => {
     setDonationType(type);
   };
   return (
-    <div>
+    <div id='donation'>
       <h1 className='donation-head'>Make a Donation!!</h1>
       <div className="main">
         <div className="left">

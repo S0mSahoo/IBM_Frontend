@@ -1,4 +1,4 @@
-* {
+#donation {
     font-family: 'Poppins', sans-serif;
     background-color: #ebeaea;
 }
@@ -149,6 +149,7 @@
     height: 100%;
     gap: 4vh;
     align-items: center;
+
     /* padding-top: 5px; */
     &>* {
         transition: box-shadow 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -159,7 +160,7 @@
     }
 }
 
-.donation-type{
+.donation-type {
     display: flex;
     /* border: 2px solid red; */
     width: 80%;
@@ -167,7 +168,8 @@
     padding: 2vh 2vw;
     background-color: #fff;
     border-radius: 50px;
-    span{
+
+    span {
         /* border: 2px solid red; */
         padding: 1vh 1.5vw;
         font-size: 2.5vmin;
@@ -176,13 +178,14 @@
         background-color: #fff;
         cursor: pointer;
         transition: background-color .2s ease-in-out;
-        &:hover{
+
+        &:hover {
             background-color: #d1e4fc;
         }
     }
 }
 
-.active{
+.active {
     background-color: royalblue !important;
     color: #fff;
 }
