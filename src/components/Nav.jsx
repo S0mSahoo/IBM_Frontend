@@ -61,7 +61,7 @@ export default function Nav() {
                 </Link>
                 <div id="n_mid">
                     <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
-                    <li onClick={closeHam}><Link to='/'>Nutrition</Link></li>
+                    <li onClick={closeHam}><Link to='/education'>Education</Link></li>
                     <li onClick={closeHam}><Link to='/'>Services</Link></li>
                     <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
                     <li onClick={closeHam}>About Us</li>
@@ -86,7 +86,7 @@ export default function Nav() {
                         </div>
                         <div id="n_lower">
                             <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
-                            <li onClick={closeHam}><Link to='/'>Nutrition</Link></li>
+                            <li onClick={closeHam}><Link to='/education'>Education</Link></li>
                             <li onClick={closeHam}><Link to='/'>Services</Link></li>
                             <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
                             <li onClick={closeHam}>About Us</li>
