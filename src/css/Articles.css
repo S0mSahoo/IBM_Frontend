@@ -1,0 +1,44 @@
+.articles-parent{
+  background-image: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8340.jpg?t=st=1722252547~exp=1722256147~hmac=24ab5e8b2437f0d2e5f9e5e126d4a6db64df81a421d48dad1906fb4e1688a7f2&w=996');
+}
+.articles-heading{
+  text-align: center;
+  font-weight: 600;
+  padding: 5rem 1rem 1rem 1rem;
+}
+.articles-grid{
+  margin: auto;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.articles-card{
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  width: 22rem;
+}
+.article-title{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(53, 53, 53);
+  padding: 2rem 1rem 0.3rem 1rem;
+}
+.author-date{
+  display: flex;
+  justify-content: space-between;
+}
+.article-author, .article-date{
+  font-style: italic;
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: rgb(89, 89, 89);
+}
+.article-last-section{
+  padding: 1rem;
+}

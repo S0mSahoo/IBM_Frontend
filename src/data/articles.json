@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "title": "The Impact of Social Media on Mental Health",
+        "image": "https://img.freepik.com/premium-vector/flat-geometric-mosaic-pattern-design_23-2149283185.jpg?w=826",
+        "author": "UC Davis Health",
+        "content": "https://health.ucdavis.edu/blog/cultivating-health/social-medias-impact-our-mental-health-and-tips-to-use-it-safely/2024/05"
+    },
+    {
+        "id": 2,
+        "title": "Mindfulness and Meditation",
+        "image": "https://img.freepik.com/free-vector/flat-design-geometric-pattern_23-2149713797.jpg?t=st=1722267532~exp=1722271132~hmac=cfc125084b46d1455b1f55a0df25ef325ae514c9e9b82383cf433f91f3a113cd&w=740",
+        "author": "Psychology Today",
+        "content": "https://www.medicalnewstoday.com/articles/mindfulness-for-mental-wellbeing"
+    },
+    {
+        "id": 3,
+        "title": "Overcoming Anxiety and Depression",
+        "image": "https://img.freepik.com/free-vector/flat-geometric-mosaic-pattern-design_23-2149277490.jpg?t=st=1722267546~exp=1722271146~hmac=19a56f865ae1cb988800f402936ac9c413ded3d6cddaa775c2e36d33833e9700&w=740",
+        "author": "Daneil Sams",
+        "content": "https://www.sciencedaily.com/releases/2024/04/240424111612.htm"
+    },
+    {
+        "id": 4,
+        "title": "Importance of Sleep for Mental Health",
+        "image": "https://img.freepik.com/free-vector/gradient-geometric-background_23-2149345440.jpg?t=st=1722267556~exp=1722271156~hmac=4a7fbf24ecf7287cc974be575f3fa84091cb2d3bf7a574a58e48d8eb10251347&w=826",
+        "author": "Verywell Health",
+        "content": "https://www.verywellhealth.com/natural-ways-to-help-you-sleep-88230"
+    },
+    {
+        "id": 5,
+        "title": "The Benefits of Exercise",
+        "image": "https://img.freepik.com/free-vector/flat-design-geometric-pattern-background_23-2149978107.jpg?t=st=1722268311~exp=1722271911~hmac=ae69b4ed45b97b5cece3fd6adc84161c2117b9fc82ea54d4c745edcaa6967d7b&w=826",
+        "author": "Johns Hopkins Medicine",
+        "content": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/exercise-and-the-heart"
+    },
+    {
+        "id": 6,
+        "title": "Chronic Disease Prevention",
+        "image": "https://img.freepik.com/free-vector/geometric-mural-wallpaper_23-2148706003.jpg?t=st=1722268576~exp=1722272176~hmac=f4a51a2551af78bc4fa3f1cf331577aa4f8fbb2415732a45c0ee9272576e9a81&w=826",
+        "author": "Centers for Disease Control and Prevention (CDC",
+        "content": "https://www.cdc.gov/pcd/issues/2021/21_0175.htm#:~:text=Chronic%20disease%20prevention%20is%20a%20dynamic%20and%20complex%20process"
+    },
+    {
+        "id": 7,
+        "title": "Nutrition and hydration",
+        "image": "https://img.freepik.com/free-vector/flat-geometric-background_23-2148945946.jpg?t=st=1722268265~exp=1722271865~hmac=d99dedba4c19a42ae921097dc6c268e67dc1beac5e22f56e7c8612b2d2593438&w=826",
+        "author": "DoveMed",
+        "content": "https://www.dovemed.com/health-topics/focused-health-topics/nutrition-and-hydration-requirements-children-and-adults-understanding-importance-balanced-diet"
+    },
+    {
+        "id": 8,
+        "title": "Importance of Hydration",
+        "image": "https://img.freepik.com/free-vector/abstract-geometric-shapes-flat-design_52683-54149.jpg?t=st=1722268147~exp=1722271747~hmac=4415570d2472347d3087cd07b69b84b4b8454da5f9171047fa04d3f3e5a83bfe&w=826",
+        "author": "UT Southwestern Medical Center",
+        "content": "https://www.utsouthwestern.edu/newsroom/articles/year-2023/june-prevent-kidney-stones.html#:~:text=1%20recommendation%20for%20preventing%20the,so%20crystals%20can't%20clump"
+    },
+    {
+        "id": 9,
+        "title": "Skincare and Sun Protection",
+        "image": "https://img.freepik.com/free-vector/flat-design-color-blocking-pattern-illustration_23-2149718898.jpg?t=st=1722268240~exp=1722271840~hmac=5cad2fe5a750075aa252cbdec87114edb649a42a353e1c6047cce09e65d977d4&w=826",
+        "author": "University of Rochester Medical Center",
+        "content": "https://www.urmc.rochester.edu/encyclopedia/content.aspx?contenttypeid=85&contentid=P01351"
+    },
+    {
+        "id": 10,
+        "title": "Understanding the Gut-Brain Connection ",
+        "image": "https://img.freepik.com/free-vector/colorful-geometric-shapes-background_23-2148370774.jpg?t=st=1722268207~exp=1722271807~hmac=38d4847026b39f07d16d0ca15eedd57252935c475955c53c4f4d8f68060c2c64&w=826",
+        "author": "Times Of India",
+        "content": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/the-gut-brain-connection-how-nutrition-impacts-mental-health/articleshow/104768210.cms"
+    },
+    {
+        "id": 11,
+        "title": "The Power of Gratitude",
+        "image": "https://img.freepik.com/free-vector/geometric-mural-wallpaper_23-2148690997.jpg?t=st=1722268176~exp=1722271776~hmac=2e8dd0836fa9006c6a2b95115ce2dac0d33d36198d8f99f9ffa0b5dc5dc818b1&w=826",
+        "author": "Mayo Clinic",
+        "content": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/can-expressing-gratitude-improve-health"
+    },
+    {
+        "id": 12,
+        "title": "Benefits of Spending Time in Naturet",
+        "image": "https://img.freepik.com/free-vector/abstract-geometric-shapes-flat-design_23-2148807187.jpg?t=st=1722268125~exp=1722271725~hmac=ae4f600958361cbc27349624fc9a481367ff0c27b6301ed54aa85d7f782c34fd&w=826",
+        "author": "Mind",
+        "content": "https://www.mind.org.uk/information-support/tips-for-everyday-living/nature-and-mental-health/how-nature-benefits-mental-health/#:~:text=Nature%20and%20mental%20health%20problems,such%20as%20anxiety%20and%20depression."
+    },
+    {
+        "id": 13,
+        "title": "Science of Happines",
+        "image": "https://img.freepik.com/free-vector/abstract-geometric-shapes-flat-design_52683-54145.jpg?t=st=1722268109~exp=1722271709~hmac=658a2ccb4bbfbb04bf0bae4b636d6620a76467d1d42b6f1337a9e57c57e9a73f&w=826",
+        "author": " PositivePsychology.com",
+        "content": "https://positivepsychology.com/happiness/#:~:text=Happiness%20boosts%20our%20immune%20system,a%20happy%20life%20than%20money."
+    },
+    {
+        "id": 14,
+        "title": "Connection Between Mental and Physical Health",
+        "image": "https://img.freepik.com/free-vector/geometric-mural-wallpaper_23-2148706003.jpg?t=st=1722268576~exp=1722272176~hmac=f4a51a2551af78bc4fa3f1cf331577aa4f8fbb2415732a45c0ee9272576e9a81&w=826",
+        "author": "ScienceDaily",
+        "content": "https://www.sciencedaily.com/releases/2023/11/231109121505.htm#:~:text=%22This%20complex%20relationship%20between%20severe,implications%2C%20including%20decreased%20treatment%20compliance%2C"
+    },
+    {
+        "id": 15,
+        "title": "Building Resilience",
+        "image": "https://img.freepik.com/premium-vector/modern-clean-abstract-vector-background-with-round-shapes-lines_475148-925.jpg?w=996",
+        "author": "Everyday Health Group",
+        "content": "https://www.everydayhealth.com/wellness/resilience/"
+    },
+    {
+        "id": 16,
+        "title": "Effects of Social Connections on Longevity",
+        "image": "https://img.freepik.com/premium-vector/colorful-geometric-abstract-background-modern-geometric-grid-banner-bright-presentation-illustration_647193-1533.jpg?w=996",
+        "author": "stanford",
+        "content": "https://longevity.stanford.edu/lifestyle/2023/12/18/how-social-connection-supports-longevity/#:~:text=%E2%80%9CWhile%20healthy%20networks%20of%20social,health%2C%20and%20mental%20health.%E2%80%9D"
+    },
+    {
+        "id": 17,
+        "title": "Influence of Genetics on Health and Well-being",
+        "image": "https://img.freepik.com/premium-vector/modern-geometric-minimalist-geometric-background_633982-47.jpg?w=826",
+        "author": "nature human behaviour",
+        "content": "https://www.nature.com/articles/s41562-018-0494-1"
+    },
+    {
+        "id": 18,
+        "title": "Role of Self-Care in Maintaining Well-being",
+        "image": "https://img.freepik.com/free-vector/flat-design-geometric-pattern-background_23-2149978146.jpg?t=st=1722267842~exp=1722271442~hmac=54c38669e777f4572343c38c1a2b7ce8fd4dcd3142f686b71765367227b5c2d6&w=826",
+        "author": "Everyday Health Group",
+        "content": "https://www.everydayhealth.com/self-care/#:~:text=Self%2Dcare%20is%20anything%20you,longevity%2C%20and%20better%20stress%20management."
+    },
+    {
+        "id": 19,
+        "title": "How to boost your immune system",
+        "image": "https://img.freepik.com/premium-vector/red-rounded-geometric-shapes-seamless-pattern-blue-color-cartoon-isolated-textile-print-pattern_115739-2273.jpg?w=826",
+        "author": "Harved Health Publishing",
+        "content": "https://www.health.harvard.edu/staying-healthy/how-to-boost-your-immune-system"
+    },
+    {
+        "id": 20,
+        "title": "The Importance of Work-Life Balance",
+        "image": "https://img.freepik.com/free-vector/gradient-geometric-background_23-2149345442.jpg?t=st=1722267756~exp=1722271356~hmac=232b5b4995565914db484399b0f1072eaaf7a639edff981e380459610de2fe48&w=826",
+        "author": "The Happiness Index",
+        "content": "https://thehappinessindex.com/blog/importance-work-life-balance/"
+    }
+
+]
