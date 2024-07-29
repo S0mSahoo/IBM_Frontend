@@ -1,8 +1,11 @@
 .pod-head {
+    padding-top: 5rem;
     font-size: 2.3em;
+    font-weight: 600;
     margin-bottom: 1em;
 }
 .podcasts-container {
+    background-image: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8340.jpg?t=st=1722252547~exp=1722256147~hmac=24ab5e8b2437f0d2e5f9e5e126d4a6db64df81a421d48dad1906fb4e1688a7f2&w=996');
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +27,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     display: flex;
 }
 .pod-img-cont{
@@ -48,7 +51,8 @@
 }
 
 .podcasts-card:hover {
-    box-shadow:2px 0 6px rgb(255, 255, 255,0.5); 
+    transition:  0.3s ease-in-out;
+    box-shadow:0.2rem 0.2rem 0.3rem rgba(197, 197, 197, 0.5); 
 }
 .bottom-sec{
     display: flex;
