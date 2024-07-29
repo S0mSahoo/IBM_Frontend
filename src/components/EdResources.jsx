@@ -2,6 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../css/EdResources.css';
 
+// react icons
+import { SiGooglepodcasts } from "react-icons/si";
+import { GiBookCover } from "react-icons/gi";
+import { GrArticle } from "react-icons/gr";
+import { MdOndemandVideo } from "react-icons/md";
+
 const EdResources = () => {
   return (
     <div className='parent'>
@@ -11,32 +17,31 @@ const EdResources = () => {
         </div>
 
         {/* ebooks and articles */}
-        <div className='parent-cont'>
-            <Link to='/ebooks'>
-                <div className='child-cont   w-96 min-w-64 h-64 mx-10 my-10 bg-blue-500 rounded-xl'>
-                    <img src="" alt="" />
-                    <h2 className='sub-heads'>eBooks</h2>
-                </div>
-            </Link>
-            <Link to='/articles'>
-                <div className='child-cont   w-96 min-w-64 h-64 mx-10 my-10 bg-blue-500 rounded-xl'>
-                    <img src="" alt="" />
-                    <h2 className='sub-heads'>Articles</h2>
-                </div>
-            </Link>
+        <div className='parent-sub'>
+            <div className='parent-cont'>
+                <Link to='/ebooks'>
+                    <div className='child-cont'>
+                    <GiBookCover className='icons'/>
+                    </div>  
+                </Link>
+                <Link to='/articles'>
+                    <div className='child-cont'>
+                        <GrArticle className='icons' />
+                    </div>
+                </Link>
 
-            <Link to='/podcasts'>
-                <div className='child-cont'>
-                    <img src="" alt="" />
-                    <h2 className='sub-heads'>Podcasts</h2>
-                </div>
-            </Link>
-            <Link to='videos'>
-                <div className='child-cont'>
-                    <img src="" alt="" />
-                    <h2 className='sub-heads'>Videos</h2>
-                </div>
-            </Link>
+                <Link to='/podcasts'>
+                    <div className='child-cont'>
+                        <SiGooglepodcasts className='icons' />
+                    </div>
+                </Link>
+                <Link to='/videos'>
+                    <div className='child-cont'>
+                        <MdOndemandVideo className='icons' />
+                    </div>
+                </Link>
+            </div>
+
         </div>
 
         {/* podcasts and videos */}

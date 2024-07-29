@@ -19,6 +19,7 @@ const Videos = () => {
             </div>
               <h2>{video.title}</h2>
               <p>{video.owner}</p>
+              <hr/>
           </div>
         ))}
       </div>
