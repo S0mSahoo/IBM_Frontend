@@ -42,3 +42,9 @@
 .article-last-section{
   padding: 1rem;
 }
+.article-last-section a{
+  font-weight: 600;
+}
+.article-last-section a:hover{
+  color: rgb(0, 0, 153);
+}
