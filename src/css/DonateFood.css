@@ -27,10 +27,6 @@
     & * {
         background-color: #fff;
     }
-
-    &>* {
-        /* border: 2px solid red; */
-    }
 }
 
 .food-head{

@@ -43,7 +43,7 @@ const Homepage = () => {
                     <h1 data-aos='fade-up'>Health and Nutrition Network</h1>
                     <p data-aos='fade-up' data-aos-delay='50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam suscipit earum laborum nam? Possimus suscipit sequi eos? Perferendis, mollitia?</p>
                 </div>
-                <div className="page2">
+                <div className="page2" >
                     <div id="left" data-aos='fade-up'>
                         <div data-aos='fade-up' data-aos-delay='50'>With a<strong>Soft Drink</strong>in hand, one might just be sipping their way to becoming a statistic among the<strong>8.9 million</strong>osteoporotic fractures annually – that's a bone breaking every<strong>3 seconds</strong></div>
                         <div data-aos='fade-up' data-aos-delay='150'><strong>2.8 million</strong>people die each year as a result of being overweight or obese.
@@ -61,8 +61,8 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div id="bottom">
-                            <div data-aos='fade-up' data-aos-delay='100'><strong>5%</strong> of the global population is affected by Hyperthyroidism.</div>
-                            <div data-aos='fade-up' data-aos-delay='150'><strong>50 million</strong>years of healthy life lost in 2019 by Anaemia.
+                            <div data-aos='fade-up'><strong>5%</strong> of the global population is affected by Hyperthyroidism.</div>
+                            <div data-aos='fade-up'><strong>50 million</strong>years of healthy life lost in 2019 by Anaemia.
                                 <p>Little to no progress has been made since 2000.</p>
                             </div>
                         </div>
@@ -73,14 +73,14 @@ const Homepage = () => {
                         <div data-aos='fade-up' data-aos-delay='150'><strong>5%</strong>adults suffer from depression globally, with over<strong>700,000</strong>people dying from suicide due to depression each year.</div>
                     </div>
                 </div>
-                <div className="page3">
+                <div className="page3" data-aos='fade-up'>
                     <video muted autoPlay loop src="https://s3.amazonaws.com/images.teladoc.com/teladoc-health-next/video/home-hero-formotion.mp4" data-aos='fade-up'></video>
                     <span data-aos='fade-up'>24/7 Telemedicine Service</span>
                     <h1 data-aos='fade-up'>Health should always be within reach</h1>
                     <p data-aos='fade-up'>See a doctor or therapist from home, using your phone, tablet or computer.</p>
                     <button data-aos='fade-up' data-aos-offset='90'>Find your Doctor</button>
                 </div>
-                <div className=" page3 page4">
+                <div className=" page3 page4" data-aos='fade-up'>
                     <img data-aos='fade-up' src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..."/>
                     <span data-aos='fade-up'>Apply for meal support</span>
                     <h1 data-aos='fade-up'>Partner with us to end Hunger</h1>
