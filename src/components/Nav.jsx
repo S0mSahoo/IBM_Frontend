@@ -41,16 +41,20 @@ export default function Nav() {
     }
 
     function openHam() {
+        document.getElementById('nav').style.backdropFilter = 'none';
         document.getElementById('n_cross').style.opacity = '1';
-        document.getElementById('n_cross').style.zIndex = '1';
+        document.getElementById('n_cross').style.zIndex = '100';
         document.getElementById('n_cross').style.visibility = 'visible';
+        document.getElementById('n_cross').style.backdropFilter = 'blur(10px)';
     }
 
     function closeHam() {
         // console.log('Hello')
+        document.getElementById('nav').style.backdropFilter = 'blur(5px)';
         document.getElementById('n_cross').style.opacity = '0';
         document.getElementById('n_cross').style.zIndex = '-1';
         document.getElementById('n_cross').style.visibility = 'hidden';
+        document.getElementById('n_cross').style.backdropFilter = 'none';
     }
 
     return (
