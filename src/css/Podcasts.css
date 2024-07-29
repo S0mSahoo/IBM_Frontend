@@ -22,7 +22,8 @@
 .podcasts-card {
     min-width: 5em;
     width: 30em;
-    background-color: white;
+    background-color: rgb(233, 233, 233);
+    z-index: 1;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -38,7 +39,6 @@
 
 .podcasts-image {
     width: 100%;
-    border-radius: 8px;
 }
 .podcast-text-sec{
     padding: 0 1em;
