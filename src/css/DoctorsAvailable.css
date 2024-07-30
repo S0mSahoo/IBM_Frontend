@@ -1,0 +1,85 @@
+
+/* Section Styles */
+.services {
+    
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #00695c;
+    padding-top: 2.8rem;
+}
+
+/* Service Cards */
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.service-card {
+    background-color: white;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s;
+}
+
+.service-card h2 {
+    color: #00695c;
+    margin: 15px 0;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Button Styles */
+.btn {
+    background-color: #ffcc00;
+    color: #00695c;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
