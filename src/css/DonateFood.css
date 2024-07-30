@@ -23,7 +23,10 @@
     flex-direction: column;
     gap: 6vh;
     align-items: center;
-
+    h1{
+        margin-top: 3vh;
+        font-weight: 700;
+    }
     & * {
         background-color: #fff;
     }

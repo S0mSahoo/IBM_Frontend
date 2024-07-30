@@ -55,6 +55,7 @@
     h5{
         font-size: 15px;
         font-weight: 700;
+        margin: 0;
         span{
             color: royalblue;
             &:hover{
