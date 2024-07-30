@@ -1,3 +1,9 @@
-.ch{
-    color: aqua;
+body::-webkit-scrollbar{
+    background-color: rgb(174, 183, 209);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: #023460;
 }
