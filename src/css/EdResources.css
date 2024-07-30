@@ -17,8 +17,8 @@
     font-weight: bold;
     /* margin: 1em 0; */
 }
-span{
-color: royalblue;
+.ed-heading > span{
+  color: royalblue;
 }
 .parent-cont{
     display: flex;
