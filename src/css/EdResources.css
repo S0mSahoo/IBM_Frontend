@@ -31,9 +31,8 @@ color: royalblue;
 .icons{
   padding: 2rem 3rem;
   color: white;
-  border-radius: 1rem ;
-  background: rgb(81,81,81);
-  background: radial-gradient(circle, rgb(49, 49, 49) 0%, rgba(86, 86, 86, 0.502) 100%);
+  border: 0.3rem solid #002545;
+  background-color: #023460;
   width: 100%;
   margin: auto;
   height: 100%;
@@ -43,7 +42,7 @@ color: royalblue;
 
 .flip-card {
   background-color: transparent;
-  width: 190px;
+  width: 200px;
   height: 254px;
   perspective: 3000px;
   font-family: sans-serif;
@@ -57,12 +56,11 @@ color: royalblue;
 }
 
 .flip-card-inner {
-  transform: rotateY(20deg);
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.4s;
   transform-style: preserve-3d;
 }
 
@@ -81,12 +79,10 @@ color: royalblue;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  /* border: 1px solid coral; */
-  border-radius: 1rem;
 }
 .flip-card-back {
-  background: rgb(81,81,81);
-  background: radial-gradient(circle, rgb(39, 39, 39) 0%, rgba(61,61,61,0.5020133053221288) 100%);
+  border: 0.3rem solid #002545;
+  background-color: #023460;
   color: white;
   transform: rotateY(180deg);
 }
