@@ -29,7 +29,7 @@ const Homepage = () => {
         }
     )
 
-    const element = document.querySelectorAll('#left > div::after, #right > div, #top > div, #center > div, #bottom > div')
+    const element = document.querySelectorAll('#left > div, #right > div, #top > div, #center > div, #bottom > div')
     VanillaTilt.init(element, {
       max: 10,
       reset: false,
