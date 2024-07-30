@@ -9,6 +9,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all';
 import bg from '../assets/hero_animated.mp4'
+import VanillaTilt from 'vanilla-tilt';
 AOS.init();
 
 const Homepage = () => {
@@ -27,18 +28,14 @@ const Homepage = () => {
             })
         }
     )
-    // var redirect = document.querySelectorAll('#left>div, #right>div, #top>div, #bottom>div, #center>div')
-    // redirect.forEach(element =>{
-    //     element.addEventListener('click', ()=>{
 
-    //     })
-    // })  
-    const myStyle = {
-        opacity: 0
-    }
-    const noStyle = {
-        opacity: 1
-    }
+    const element = document.querySelectorAll('#left > div::after, #right > div, #top > div, #center > div, #bottom > div')
+    VanillaTilt.init(element, {
+      max: 10,
+      reset: false,
+      speed: 200,
+      easing: 'cubic-bezier(0.075, 0.82, 0.165, 1)'
+    })
     return (
         <div>
             <div className="backplay">
@@ -48,7 +45,7 @@ const Homepage = () => {
                 <div className="page1">
                     <h1 data-aos='fade-up'>{'Health and Nutrition Network'.split(' ').map((word, index) => (
                         <span key={index}>{word.split('').map((letter, index) => (
-                            <span key={index}>{letter==='\u00A0'?'\u00A0':letter}</span>
+                            <span key={index}>{letter === '\u00A0' ? '\u00A0' : letter}</span>
                         ))}</span>
                     ))}</h1>
                     <p data-aos='fade-up' data-aos-delay='50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam suscipit earum laborum nam? Possimus suscipit sequi eos? Perferendis, mollitia?</p>
