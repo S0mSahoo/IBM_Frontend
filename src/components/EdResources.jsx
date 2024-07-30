@@ -13,31 +13,59 @@ const EdResources = () => {
     <div className='parent'>
         {/* heading */}
         <div>
-            <h1 className='ed-heading  text-center align-center text-5xl my-8'><span className='font-bold text-blue-500'>Educational</span> Resources 📖</h1>
+            <h1 className='ed-heading  text-center align-center text-5xl my-8'><span>Educational</span> Resources 📖</h1>
         </div>
 
         {/* ebooks and articles */}
         <div className='parent-sub'>
             <div className='parent-cont'>
                 <Link to='/ebooks'>
-                    <div className='child-cont'>
-                    <GiBookCover className='icons'/>
-                    </div>  
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <GiBookCover className='icons' />
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">eBooks</p>
+                            </div>
+                        </div>
+                    </div>
                 </Link>
                 <Link to='/articles'>
-                    <div className='child-cont'>
-                        <GrArticle className='icons' />
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <GrArticle className='icons' />
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">Articles</p>
+                            </div>
+                        </div>
                     </div>
                 </Link>
 
                 <Link to='/podcasts'>
-                    <div className='child-cont'>
-                        <SiGooglepodcasts className='icons' />
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <SiGooglepodcasts className='icons' />
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">Podcasts</p>
+                            </div>
+                        </div>
                     </div>
                 </Link>
                 <Link to='/videos'>
-                    <div className='child-cont'>
-                        <MdOndemandVideo className='icons' />
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <MdOndemandVideo className='icons' />
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="title">Videos</p>
+                            </div>
+                        </div>
                     </div>
                 </Link>
             </div>
