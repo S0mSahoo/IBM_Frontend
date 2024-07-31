@@ -8,6 +8,8 @@ import Podcasts from './components/Podcasts';
 import Articles from './components/Articles';
 import Videos from './components/Videos';
 import EBooks from './components/EBooks';
+import Davailable from './components/Davailable';
+import Dbooking from './components/Dbooking';
 
 import {
   BrowserRouter as Router,
@@ -30,6 +32,8 @@ function App() {
           <Route path='/articles' element={<Articles/>} />
           <Route path='/videos' element={<Videos/>} />
           <Route path='/ebooks' element={<EBooks/>} />
+          <Route path='/booking' element={<Davailable/>} />
+          <Route path='/appointment' element={<Dbooking/>} />
         </Routes>
       </div>
     </Router>

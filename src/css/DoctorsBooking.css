@@ -1,0 +1,173 @@
+
+.appointment{
+    padding-top: 5rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.booking {
+    padding: 60px 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    width: 50%;
+    background-color: rgba(235, 235, 235, 0.984);
+    border: 1px solid black;
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #00695c;
+    }
+
+    .doctor-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        h2 {
+            color: #00695c;
+            font-size: 1.8em;
+            margin: 0;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+        }
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: left;
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #00695c;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: border-color 0.3s, box-shadow 0.3s;
+
+            &::placeholder {
+                color: #999;
+            }
+
+            &:focus {
+                border-color: #00695c;
+                box-shadow: 0 0 5px rgba(0, 105, 92, 0.2);
+            }
+        }
+
+        button {
+            background-color: #00695c;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+
+            &:hover {
+                background-color: #004d40;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .booking {
+        .doctor-info {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        form {
+            padding: 20px;
+        }
+    }
+}
+
+/* Date and Time Picker Styles */
+.flatpickr-calendar {
+    font-family: 'Roboto', sans-serif;
+
+    .flatpickr-day {
+        &:hover {
+            background-color: #00695c;
+            color: white;
+        }
+
+        &.selected {
+            background-color: #004d40;
+            color: white;
+        }
+    }
+
+    .flatpickr-time {
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;
+
+        .numInput {
+            text-align: center;
+        }
+
+        .arrowDown,
+        .arrowUp {
+            color: #00695c;
+        }
+    }
+}
