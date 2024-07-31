@@ -17,7 +17,6 @@
     margin: auto;
 }
 
-/* Service Cards */
 .service-cards {
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +24,9 @@
     position: relative;
     width: 80%;
     margin: auto;
-    /* gap: 16px; Adds spacing between the cards */
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1200px) {
     .service-cards {
         width: 90%;
@@ -37,7 +35,7 @@
 
 @media (max-width: 992px) {
     .service-cards {
-        justify-content: center; /* Center cards on smaller screens */
+        justify-content: center; 
     }
 }
 
@@ -49,7 +47,7 @@
 
 @media (max-width: 576px) {
     .service-cards {
-        flex-direction: column; /* Stack cards vertically on very small screens */
+        flex-direction: column; 
         align-items: center;
     }
 }
