@@ -2,15 +2,20 @@
   background-image: url("https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8340.jpg?t=st=1722252547~exp=1722256147~hmac=24ab5e8b2437f0d2e5f9e5e126d4a6db64df81a421d48dad1906fb4e1688a7f2&w=996");
   /* border: 1px solid red; */
   padding-top: 0.1rem;
-  padding-bottom: 8rem;
+  /* padding-bottom: 8rem; */
   margin: auto;
+  height: 50rem;
+  background-size: cover;
+  /* border: 1px solid red; */
+  /* display: flex;
+  flex-direction: column; */
 }
 .parent-sub{
   margin: auto;
   max-width: 80%;
 }
 .ed-heading{
-    margin-top: 2em;
+    margin-top: 2.5em;
     margin-bottom: 3rem;
     text-align: center;
     /* font-size: 30px; */
@@ -23,10 +28,9 @@
 .parent-cont{
     display: flex;
     flex-wrap: wrap;
-    /* gap: 0.1rem; */
-    justify-content:space-around;
-    align-items: center;
-    margin-top: 0.5em;
+    /* gap: 1rem; */
+    justify-content:center;
+    margin-top: 6em;
 }
 .icons{
   padding: 2rem 3rem;
@@ -85,4 +89,21 @@
   background-color: #023460;
   color: white;
   transform: rotateY(180deg);
+}
+
+
+@media only screen and (max-width: 550px) {
+  /* For mobiles: */
+  .ed-heading{
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
+  .flip-card{
+    /* border: 2px solid red;  */
+    width: 9.2rem;
+    height: 12rem; 
+  }
+  .icons{
+    padding: 2rem;
+  }
 }
