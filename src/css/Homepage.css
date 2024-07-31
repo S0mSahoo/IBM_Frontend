@@ -298,11 +298,12 @@
 
     button {
         border: none;
-        background-color: royalblue;
+        background-color: #023460;
         color: #fff;
         padding: 2vh 3vw;
         border-radius: 20px;
         font-size: 2vmin;
+        font-weight: 600;
     }
 }
 
