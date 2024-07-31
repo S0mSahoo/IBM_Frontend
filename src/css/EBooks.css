@@ -2,6 +2,7 @@
   background-image: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8340.jpg?t=st=1722252547~exp=1722256147~hmac=24ab5e8b2437f0d2e5f9e5e126d4a6db64df81a421d48dad1906fb4e1688a7f2&w=996');
 }
 .eBooks-heading{
+  font-weight: 600;
   padding-top: 5rem;
   text-align: center;
 }
@@ -62,3 +63,59 @@
   background-color: #0038a8;
   transition: 0.3s ease-in-out;
 } 
+
+
+@media only screen and (max-width: 590px) {
+  .eBooks-heading{
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  .eBooks-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0.8rem;
+    gap: 1.5rem;
+  }
+  .eBooks-card{
+    background-color: rgb(234, 234, 234);
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 8rem;
+    /* border: 2px solid red; */
+    padding: 0.1rem;
+    text-align: center;
+  }
+  .txt-sec{
+    text-align: left;
+    padding: 0.3rem 0.5rem 0 0.5rem;
+    width: 22rem;
+  }
+  .txt-top h2{
+    padding-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .author{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #333;
+  }
+  .txt-bottom{
+    padding-top: 0;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .ebook-img-cont img{
+    padding-top: 0.5rem;
+    width: 9rem;
+    height: 7rem;
+  }
+  .content{
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
