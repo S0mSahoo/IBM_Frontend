@@ -53,8 +53,21 @@ const DonateFood = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Process form data here (e.g., send to API or handle locally)
-    console.log('Form submitted:', formData);
+    alert('Submitted!!')
+    setFormData({
+      fullName: '',
+      email: '',
+      phoneNumber: '',
+      address: '',
+      foodTypes: [],
+      quantity: '',
+      pickUpOrDropOff: '',
+      preferredDateTime: '',
+      isRecurring: false,
+      frequency: '',
+      privacyPolicyAgreed: false,
+      consentToShare: false,
+    });
   };
 
   return (
@@ -98,7 +111,7 @@ const DonateFood = () => {
         
         <div>
           <label htmlFor="address">Address:</label>
-          <input type='text' id='address' value={formData.address} onChange={handleInputChange}></input>
+          <input type='text' name='address' id='address' value={formData.address} onChange={handleInputChange}></input>
         </div>
       </div>
 

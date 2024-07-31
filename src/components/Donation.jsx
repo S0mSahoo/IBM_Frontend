@@ -13,7 +13,7 @@ const Donation = () => {
   };
   return (
     <div id='donation'>
-      <h1 className='donation-head'>Make a Donation!!</h1>
+      <h1 className='donation-head'>Make a&nbsp;<span> Donation!!</span></h1>
       <div className="main">
         <div className="left">
           <div className="content-1">
