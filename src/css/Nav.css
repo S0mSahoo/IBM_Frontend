@@ -120,7 +120,7 @@
     cursor: pointer;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 666px) {
     #n_mid, #n_right {
         display: none;
     }
@@ -145,8 +145,8 @@
     }
     #n_cross svg {
         position: absolute;
-        right: 5vw;
-        top: 5vh;
+        right: 7.5vw;
+        top: 3vh;
     }
     #n_upper {
         display: flex;
@@ -157,18 +157,14 @@
         justify-content: center;
         padding: 1rem;
         font-size: 3.2vmin;
-        h5{
-            font-weight: 600;
-        }
         & > a{
-            border: 2px solid black;
             padding: .5rem 1rem;
             border-radius: 50px;
-            background-color: black;
+            background-color: #023460;
             color: #fff;
             text-decoration: none;
             transition: all .2s ease-in-out;
-            font-size: .8em;
+            font-size: 1em;
             font-weight: 500;
             &:hover{
                 scale: 1.02;
@@ -176,35 +172,6 @@
                 cursor: pointer;
             }
         }
-        h5{
-            font-size: 1em;
-            span{
-                color: royalblue;
-                cursor: pointer;
-            }
-        }
-    }
-    #n_upper > a {
-        border: 2px solid black;
-        padding: .5rem 1rem;
-        border-radius: 50px;
-        background-color: black;
-        color: #fff;
-        text-decoration: none;
-        transition: all .2s ease-in-out;
-        font-size: .8em;
-    }
-    #n_upper > a:hover {
-        scale: 1.02;
-        box-shadow: 0 0 10px grey;
-        cursor: pointer;
-    }
-    #n_upper h5 {
-        font-size: 1em;
-    }
-    #n_upper h5 span {
-        color: royalblue;
-        cursor: pointer;
     }
     #n_lower {
         padding: 3vw;
