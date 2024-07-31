@@ -9,6 +9,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all';
 import bg from '../assets/hero_animated.mp4'
+import VanillaTilt from 'vanilla-tilt';
 AOS.init();
 
 const Homepage = () => {
@@ -27,12 +28,14 @@ const Homepage = () => {
             })
         }
     )
-    // var redirect = document.querySelectorAll('#left>div, #right>div, #top>div, #bottom>div, #center>div')
-    // redirect.forEach(element =>{
-    //     element.addEventListener('click', ()=>{
 
-    //     })
-    // })
+    const element = document.querySelectorAll('#left > div, #right > div, #top > div, #center > div, #bottom > div')
+    VanillaTilt.init(element, {
+      max: 10,
+      reset: false,
+      speed: 200,
+      easing: 'cubic-bezier(0.075, 0.82, 0.165, 1)'
+    })
     return (
         <div>
             <div className="backplay">
@@ -40,7 +43,11 @@ const Homepage = () => {
             </div>
             <div className="home-main">
                 <div className="page1">
-                    <h1 data-aos='fade-up'>Health and Nutrition Network</h1>
+                    <h1 data-aos='fade-up'>{'Health and Nutrition Network'.split(' ').map((word, index) => (
+                        <span key={index}>{word.split('').map((letter, index) => (
+                            <span key={index}>{letter === '\u00A0' ? '\u00A0' : letter}</span>
+                        ))}</span>
+                    ))}</h1>
                     <p data-aos='fade-up' data-aos-delay='50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam suscipit earum laborum nam? Possimus suscipit sequi eos? Perferendis, mollitia?</p>
                 </div>
                 <div className="page2" >
@@ -81,7 +88,7 @@ const Homepage = () => {
                     <button data-aos='fade-up' data-aos-offset='90'>Find your Doctor</button>
                 </div>
                 <div className=" page3 page4" data-aos='fade-up'>
-                    <img data-aos='fade-up' src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..."/>
+                    <img data-aos='fade-up' src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..." />
                     <span data-aos='fade-up'>Apply for meal support</span>
                     <h1 data-aos='fade-up'>Partner with us to end Hunger</h1>
                     <p data-aos='fade-up'>Reach out to us if you're an NGO, private organisation or educational institute that is in need of food support.</p>

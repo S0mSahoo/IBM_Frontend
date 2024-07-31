@@ -8,18 +8,6 @@ const Donation = () => {
   const [donationType, setDonationType] = useState('money')
   let target = 1000000
   let current = 869459
-  // const element = document.querySelectorAll('.left>*, .right>*')
-  // VanillaTilt.init(element, {
-  //   max: 3,
-  //   reset: false,
-  //   speed: 200,
-  //   easing: 'cubic-bezier(0.075, 0.82, 0.165, 1)'
-  // })
-  // const toActive = ()=>{
-  //   document.querySelectorAll('.donation-type > span').forEach(element =>{
-  //     element.classList.toggle('active')
-  //   })
-  // }
   const handleClick = (type) => {
     setDonationType(type);
   };

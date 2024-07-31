@@ -68,12 +68,12 @@ export default function Nav() {
                 <div id="n_mid">
                     <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
                     <li onClick={closeHam}><Link to='/education'>Education</Link></li>
-                    <li onClick={closeHam}><Link to='/'>Services</Link></li>
                     <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
-                    <li onClick={closeHam}>About Us</li>
+                    <li onClick={closeHam}><Link to='/'>Support</Link></li>
+                    {/* <li onClick={closeHam}>About Us</li> */}
                 </div>
                 <div id="n_right">
-                    <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5>
+                    {/* <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5> */}
                     <Link to='/donation' onClick={closeHam}>Donate</Link>
                 </div>
                 <div id="n_ham">
@@ -87,15 +87,15 @@ export default function Nav() {
                             <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
                         </svg>
                         <div id="n_upper">
-                            <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5>
+                            {/* <h5>Call <span className="number" onClick={toClick}>9876543201</span> or</h5> */}
                             <Link to='/donation' onClick={closeHam}>Donate</Link>
                         </div>
                         <div id="n_lower">
                             <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
                             <li onClick={closeHam}><Link to='/education'>Education</Link></li>
-                            <li onClick={closeHam}><Link to='/'>Services</Link></li>
                             <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
-                            <li onClick={closeHam}>About Us</li>
+                            <li onClick={closeHam}><Link to='/'>Support</Link></li>
+                            {/* <li onClick={closeHam}>About Us</li> */}
                         </div>
                     </div>
                 </div>
