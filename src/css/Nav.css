@@ -96,18 +96,6 @@
     }
 }
 
-#n_right h5 {
-    font-size: 15px;
-}
-
-#n_right h5 span {
-    color: royalblue;
-}
-
-#n_right h5 span:hover {
-    cursor: pointer;
-}
-
 #n_ham {
     display: none;
     border: 1px solid grey;
