@@ -264,15 +264,6 @@ const doctors = [
     name: 'Dr. Lucas King',
     bookingLink: './appointment?doctor=Dr. Lucas King'
   },
-  {
-    id: 30,
-    image: '../assets/data/doctor2.jpeg',
-    alt: 'Dr. Amelia Nelson',
-    specialty: 'Emergency Medicine',
-    description: 'Immediate care for acute illnesses and injuries in emergency situations.',
-    name: 'Dr. Amelia Nelson',
-    bookingLink: './appointment?doctor=Dr. Amelia Nelson'
-  },
 ];
 
 
