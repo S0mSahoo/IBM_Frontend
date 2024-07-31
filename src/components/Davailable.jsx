@@ -10,7 +10,7 @@ const doctors = [
     specialty: 'General Consultation',
     description: 'Our experienced general physicians provide comprehensive health care for all age groups.',
     name: 'Dr. John Doe',
-    bookingLink: './appointment?doctor=Dr. John Doe'
+    bookingLink: './appointment?doctor=JohnDoe'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const doctors = [
     specialty: 'Pediatric Care',
     description: 'Specialized care for infants, children, and adolescents by our expert pediatricians.',
     name: 'Dr. Sarah Williams',
-    bookingLink: './appointment?doctor=Dr. Sarah Williams'
+    bookingLink: './appointment?doctor=SarahWilliams'
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const doctors = [
     specialty: 'Dermatology',
     description: 'Advanced skin care treatments and procedures by our skilled dermatologists.',
     name: 'Dr. Alan Brown',
-    bookingLink: './appointment?doctor=Dr. Alan Brown'
+    bookingLink: './appointment?doctor=AlanBrown'
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const doctors = [
     specialty: 'Cardiology',
     description: 'Expert cardiac care including diagnosis, treatment, and prevention of heart conditions.',
     name: 'Dr. Jane Smith',
-    bookingLink: './appointment?doctor=Dr. Jane Smith'
+    bookingLink: './appointment?doctor=JaneSmith'
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const doctors = [
     specialty: 'Orthopedics',
     description: 'Comprehensive care for bone, joint, and muscle conditions by our orthopedic specialists.',
     name: 'Dr. Michael Johnson',
-    bookingLink: './appointment?doctor=Dr. Michael Johnson'
+    bookingLink: './appointment?doctor=MichaelJohnson'
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const doctors = [
     specialty: 'Ophthalmology',
     description: 'Advanced eye care services including surgeries and treatments for various eye conditions.',
     name: 'Dr. Emily Davis',
-    bookingLink: './appointment?doctor=Dr. Emily Davis'
+    bookingLink: './appointment?doctor=EmilyDavis'
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const doctors = [
     specialty: 'Dental Care',
     description: 'Full range of dental services including cleanings, fillings, and cosmetic procedures.',
     name: 'Dr. Mark Wilson',
-    bookingLink: './appointment?doctor=Dr. Mark Wilson'
+    bookingLink: './appointment?doctor=MarkWilson'
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const doctors = [
     specialty: 'Gynecology',
     description: 'Comprehensive women’s health services including prenatal care and gynecological surgeries.',
     name: 'Dr. Linda Taylor',
-    bookingLink: './appointment?doctor=Dr. Linda Taylor'
+    bookingLink: './appointment?doctor=LindaTaylor'
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ const doctors = [
     specialty: 'Neurology',
     description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
     name: 'Dr. Robert Brown',
-    bookingLink: './appointment?doctor=Dr. Robert Brown'
+    bookingLink: './appointment?doctor=RobertBrown'
   },
   {
     id: 10,
@@ -91,7 +91,7 @@ const doctors = [
     specialty: 'Endocrinology',
     description: 'Specialized care for hormone-related conditions and disorders such as diabetes and thyroid issues.',
     name: 'Dr. Laura Green',
-    bookingLink: './appointment?doctor=Dr. Laura Green'
+    bookingLink: './appointment?doctor=LauraGreen'
   },
   {
     id: 11,
@@ -100,7 +100,7 @@ const doctors = [
     specialty: 'Hematology',
     description: 'Expert care for blood disorders, including anemia, leukemia, and clotting issues.',
     name: 'Dr. Michael Adams',
-    bookingLink: './appointment?doctor=Dr. Michael Adams'
+    bookingLink: './appointment?doctor=MichaelAdams'
   },
   {
     id: 12,
@@ -109,7 +109,7 @@ const doctors = [
     specialty: 'Rheumatology',
     description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions affecting the joints and muscles.',
     name: 'Dr. Alice Cooper',
-    bookingLink: './appointment?doctor=Dr. Alice Cooper'
+    bookingLink: './appointment?doctor=AliceCooper'
   },
   {
     id: 13,
@@ -118,7 +118,7 @@ const doctors = [
     specialty: 'Gastroenterology',
     description: 'Comprehensive care for digestive system disorders, including IBS, liver diseases, and more.',
     name: 'Dr. David Lee',
-    bookingLink: './appointment?doctor=Dr. David Lee'
+    bookingLink: './appointment?doctor=DavidLee'
   },
   {
     id: 14,
@@ -127,7 +127,7 @@ const doctors = [
     specialty: 'Infectious Diseases',
     description: 'Specialized treatment for infections caused by bacteria, viruses, fungi, and parasites.',
     name: 'Dr. Nancy Wilson',
-    bookingLink: './appointment?doctor=Dr. Nancy Wilson'
+    bookingLink: './appointment?doctor=NancyWilson'
   },
   {
     id: 15,
@@ -136,7 +136,7 @@ const doctors = [
     specialty: 'Pulmonology',
     description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
     name: 'Dr. Charles King',
-    bookingLink: './appointment?doctor=Dr. Charles King'
+    bookingLink: './appointment?doctor=CharlesKing'
   },
   {
     id: 16,
@@ -145,7 +145,7 @@ const doctors = [
     specialty: 'Urology',
     description: 'Expert treatment for urinary tract and male reproductive system disorders.',
     name: 'Dr. Olivia Martinez',
-    bookingLink: './appointment?doctor=Dr. Olivia Martinez'
+    bookingLink: './appointment?doctor=OliviaMartinez'
   },
   {
     id: 17,
@@ -154,7 +154,7 @@ const doctors = [
     specialty: 'Plastic Surgery',
     description: 'Cosmetic and reconstructive surgical procedures to enhance appearance and restore function.',
     name: 'Dr. James Wilson',
-    bookingLink: './appointment?doctor=Dr. James Wilson'
+    bookingLink: './appointment?doctor=JamesWilson'
   },
   {
     id: 18,
@@ -163,7 +163,7 @@ const doctors = [
     specialty: 'Oncology',
     description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
     name: 'Dr. Sophia Lee',
-    bookingLink: './appointment?doctor=Dr. Sophia Lee'
+    bookingLink: './appointment?doctor=SophiaLee'
   },
   {
     id: 19,
@@ -172,7 +172,7 @@ const doctors = [
     specialty: 'Nephrology',
     description: 'Specialized care for kidney diseases and conditions, including dialysis treatment.',
     name: 'Dr. William Scott',
-    bookingLink: './appointment?doctor=Dr. William Scott'
+    bookingLink: './appointment?doctor=WilliamScott'
   },
   {
     id: 20,
@@ -181,7 +181,7 @@ const doctors = [
     specialty: 'Allergy and Immunology',
     description: 'Diagnosis and treatment of allergies and immune system disorders.',
     name: 'Dr. Emma Brown',
-    bookingLink: './appointment?doctor=Dr. Emma Brown'
+    bookingLink: './appointment?doctor=EmmaBrown'
   },
   {
     id: 21,
@@ -190,7 +190,7 @@ const doctors = [
     specialty: 'Sports Medicine',
     description: 'Treatment and rehabilitation of sports-related injuries and conditions.',
     name: 'Dr. Daniel Clark',
-    bookingLink: './appointment?doctor=Dr. Daniel Clark'
+    bookingLink: './appointment?doctor=DanielClark'
   },
   {
     id: 22,
@@ -199,7 +199,7 @@ const doctors = [
     specialty: 'Vascular Surgery',
     description: 'Surgical treatment for vascular conditions, including arteries and veins.',
     name: 'Dr. Ava Lewis',
-    bookingLink: './appointment?doctor=Dr. Ava Lewis'
+    bookingLink: './appointment?doctor=AvaLewis'
   },
   {
     id: 23,
@@ -208,7 +208,7 @@ const doctors = [
     specialty: 'Ear, Nose, and Throat',
     description: 'Comprehensive care for ENT conditions, including sinus issues and hearing loss.',
     name: 'Dr. Ethan Taylor',
-    bookingLink: './appointment?doctor=Dr. Ethan Taylor'
+    bookingLink: './appointment?doctor=EthanTaylor'
   },
   {
     id: 24,
@@ -217,7 +217,7 @@ const doctors = [
     specialty: 'Palliative Care',
     description: 'Supportive care for patients with serious illnesses to improve quality of life.',
     name: 'Dr. Mia Johnson',
-    bookingLink: './appointment?doctor=Dr. Mia Johnson'
+    bookingLink: './appointment?doctor=MiaJohnson'
   },
   {
     id: 25,
@@ -226,44 +226,53 @@ const doctors = [
     specialty: 'Rheumatology',
     description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions.',
     name: 'Dr. Jacob White',
-    bookingLink: './appointment?doctor=Dr. Jacob White'
+    bookingLink: './appointment?doctor=JacobWhite'
   },
   {
     id: 26,
     image: '../assets/data/doctor2.jpeg',
     alt: 'Dr. Isabella Harris',
     specialty: 'Geriatrics',
-    description: 'Comprehensive care for elderly patients, focusing on aging-related conditions.',
+    description: 'Comprehensive care for elderly patients, focusing on aging-related health conditions.',
     name: 'Dr. Isabella Harris',
-    bookingLink: './appointment?doctor=Dr. Isabella Harris'
+    bookingLink: './appointment?doctor=IsabellaHarris'
   },
   {
     id: 27,
     image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Benjamin Martinez',
-    specialty: 'Obstetrics',
-    description: 'Care for pregnant women, including prenatal and postnatal care.',
-    name: 'Dr. Benjamin Martinez',
-    bookingLink: './appointment?doctor=Dr. Benjamin Martinez'
+    alt: 'Dr. Alexander Clark',
+    specialty: 'Pulmonology',
+    description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
+    name: 'Dr. Alexander Clark',
+    bookingLink: './appointment?doctor=AlexanderClark'
   },
   {
     id: 28,
     image: '../assets/data/doctor2.jpeg',
-    alt: 'Dr. Charlotte Anderson',
-    specialty: 'Transplant Surgery',
-    description: 'Surgical procedures for organ transplants and post-transplant care.',
-    name: 'Dr. Charlotte Anderson',
-    bookingLink: './appointment?doctor=Dr. Charlotte Anderson'
+    alt: 'Dr. Charlotte King',
+    specialty: 'Endocrinology',
+    description: 'Specialized care for hormone-related conditions and disorders.',
+    name: 'Dr. Charlotte King',
+    bookingLink: './appointment?doctor=CharlotteKing'
   },
   {
     id: 29,
     image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Lucas King',
-    specialty: 'Addiction Medicine',
-    description: 'Treatment and support for patients struggling with substance use disorders.',
-    name: 'Dr. Lucas King',
-    bookingLink: './appointment?doctor=Dr. Lucas King'
+    alt: 'Dr. Henry Scott',
+    specialty: 'Nephrology',
+    description: 'Specialized care for kidney diseases and conditions, including dialysis treatment.',
+    name: 'Dr. Henry Scott',
+    bookingLink: './appointment?doctor=HenryScott'
   },
+  {
+    id: 30,
+    image: '../assets/data/doctor2.jpeg',
+    alt: 'Dr. Grace Lewis',
+    specialty: 'Neurology',
+    description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
+    name: 'Dr. Grace Lewis',
+    bookingLink: './appointment?doctor=GraceLewis'
+  }
 ];
 
 
@@ -285,7 +294,7 @@ const DoctorsAvailable = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section>A
     </main>
   );
 };
