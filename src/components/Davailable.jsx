@@ -5,7 +5,7 @@ import '../css/DoctorsAvailable.css';
 const doctors = [
   {
     id: 1,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. John Doe',
     specialty: 'General Consultation',
     description: 'Our experienced general physicians provide comprehensive health care for all age groups.',
@@ -14,7 +14,7 @@ const doctors = [
   },
   {
     id: 2,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Sarah Williams',
     specialty: 'Pediatric Care',
     description: 'Specialized care for infants, children, and adolescents by our expert pediatricians.',
@@ -23,7 +23,7 @@ const doctors = [
   },
   {
     id: 3,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Alan Brown',
     specialty: 'Dermatology',
     description: 'Advanced skin care treatments and procedures by our skilled dermatologists.',
@@ -32,7 +32,7 @@ const doctors = [
   },
   {
     id: 4,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Jane Smith',
     specialty: 'Cardiology',
     description: 'Expert cardiac care including diagnosis, treatment, and prevention of heart conditions.',
@@ -41,7 +41,7 @@ const doctors = [
   },
   {
     id: 5,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Michael Johnson',
     specialty: 'Orthopedics',
     description: 'Comprehensive care for bone, joint, and muscle conditions by our orthopedic specialists.',
@@ -50,7 +50,7 @@ const doctors = [
   },
   {
     id: 6,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Emily Davis',
     specialty: 'Ophthalmology',
     description: 'Advanced eye care services including surgeries and treatments for various eye conditions.',
@@ -59,7 +59,7 @@ const doctors = [
   },
   {
     id: 7,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Mark Wilson',
     specialty: 'Dental Care',
     description: 'Full range of dental services including cleanings, fillings, and cosmetic procedures.',
@@ -68,7 +68,7 @@ const doctors = [
   },
   {
     id: 8,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Linda Taylor',
     specialty: 'Gynecology',
     description: 'Comprehensive women’s health services including prenatal care and gynecological surgeries.',
@@ -77,7 +77,7 @@ const doctors = [
   },
   {
     id: 9,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Robert Brown',
     specialty: 'Neurology',
     description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
@@ -86,7 +86,7 @@ const doctors = [
   },
   {
     id: 10,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Laura Green',
     specialty: 'Endocrinology',
     description: 'Specialized care for hormone-related conditions and disorders such as diabetes and thyroid issues.',
@@ -95,7 +95,7 @@ const doctors = [
   },
   {
     id: 11,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Michael Adams',
     specialty: 'Hematology',
     description: 'Expert care for blood disorders, including anemia, leukemia, and clotting issues.',
@@ -104,7 +104,7 @@ const doctors = [
   },
   {
     id: 12,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Alice Cooper',
     specialty: 'Rheumatology',
     description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions affecting the joints and muscles.',
@@ -113,7 +113,7 @@ const doctors = [
   },
   {
     id: 13,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. David Lee',
     specialty: 'Gastroenterology',
     description: 'Comprehensive care for digestive system disorders, including IBS, liver diseases, and more.',
@@ -122,7 +122,7 @@ const doctors = [
   },
   {
     id: 14,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Nancy Wilson',
     specialty: 'Infectious Diseases',
     description: 'Specialized treatment for infections caused by bacteria, viruses, fungi, and parasites.',
@@ -131,7 +131,7 @@ const doctors = [
   },
   {
     id: 15,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Charles King',
     specialty: 'Pulmonology',
     description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
@@ -140,7 +140,7 @@ const doctors = [
   },
   {
     id: 16,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Olivia Martinez',
     specialty: 'Urology',
     description: 'Expert treatment for urinary tract and male reproductive system disorders.',
@@ -149,7 +149,7 @@ const doctors = [
   },
   {
     id: 17,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. James Wilson',
     specialty: 'Plastic Surgery',
     description: 'Cosmetic and reconstructive surgical procedures to enhance appearance and restore function.',
@@ -158,7 +158,7 @@ const doctors = [
   },
   {
     id: 18,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Sophia Lee',
     specialty: 'Oncology',
     description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
@@ -167,7 +167,7 @@ const doctors = [
   },
   {
     id: 19,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. William Scott',
     specialty: 'Nephrology',
     description: 'Specialized care for kidney diseases and conditions, including dialysis treatment.',
@@ -176,7 +176,7 @@ const doctors = [
   },
   {
     id: 20,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Emma Brown',
     specialty: 'Allergy and Immunology',
     description: 'Diagnosis and treatment of allergies and immune system disorders.',
@@ -185,7 +185,7 @@ const doctors = [
   },
   {
     id: 21,
-    image: '../assets/data/doctor4.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Daniel Clark',
     specialty: 'Sports Medicine',
     description: 'Treatment and rehabilitation of sports-related injuries and conditions.',
@@ -194,7 +194,7 @@ const doctors = [
   },
   {
     id: 22,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Ava Lewis',
     specialty: 'Vascular Surgery',
     description: 'Surgical treatment for vascular conditions, including arteries and veins.',
@@ -203,70 +203,70 @@ const doctors = [
   },
   {
     id: 23,
-    image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Ethan Taylor',
-    specialty: 'Ear, Nose, and Throat',
-    description: 'Comprehensive care for ENT conditions, including sinus issues and hearing loss.',
-    name: 'Dr. Ethan Taylor',
-    bookingLink: './appointment?doctor=EthanTaylor'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Jacob Wright',
+    specialty: 'Geriatrics',
+    description: 'Comprehensive care for older adults, focusing on aging-related conditions.',
+    name: 'Dr. Jacob Wright',
+    bookingLink: './appointment?doctor=JacobWright'
   },
   {
     id: 24,
-    image: '../assets/data/doctor2.jpeg',
-    alt: 'Dr. Mia Johnson',
-    specialty: 'Palliative Care',
-    description: 'Supportive care for patients with serious illnesses to improve quality of life.',
-    name: 'Dr. Mia Johnson',
-    bookingLink: './appointment?doctor=MiaJohnson'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Mia King',
+    specialty: 'Obstetrics',
+    description: 'Specialized care for pregnancy, childbirth, and postpartum health.',
+    name: 'Dr. Mia King',
+    bookingLink: './appointment?doctor=MiaKing'
   },
   {
     id: 25,
-    image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Jacob White',
-    specialty: 'Rheumatology',
-    description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions.',
-    name: 'Dr. Jacob White',
-    bookingLink: './appointment?doctor=JacobWhite'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Ethan Johnson',
+    specialty: 'Pain Management',
+    description: 'Treatment strategies for managing chronic pain and improving quality of life.',
+    name: 'Dr. Ethan Johnson',
+    bookingLink: './appointment?doctor=EthanJohnson'
   },
   {
     id: 26,
-    image: '../assets/data/doctor2.jpeg',
-    alt: 'Dr. Isabella Harris',
-    specialty: 'Geriatrics',
-    description: 'Comprehensive care for elderly patients, focusing on aging-related health conditions.',
-    name: 'Dr. Isabella Harris',
-    bookingLink: './appointment?doctor=IsabellaHarris'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Isabella Evans',
+    specialty: 'Medical Genetics',
+    description: 'Genetic testing and counseling for inherited conditions and diseases.',
+    name: 'Dr. Isabella Evans',
+    bookingLink: './appointment?doctor=IsabellaEvans'
   },
   {
     id: 27,
-    image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Alexander Clark',
-    specialty: 'Pulmonology',
-    description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
-    name: 'Dr. Alexander Clark',
-    bookingLink: './appointment?doctor=AlexanderClark'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Oliver Hill',
+    specialty: 'Rheumatology',
+    description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions affecting the joints and muscles.',
+    name: 'Dr. Oliver Hill',
+    bookingLink: './appointment?doctor=OliverHill'
   },
   {
     id: 28,
-    image: '../assets/data/doctor2.jpeg',
-    alt: 'Dr. Charlotte King',
-    specialty: 'Endocrinology',
-    description: 'Specialized care for hormone-related conditions and disorders.',
-    name: 'Dr. Charlotte King',
-    bookingLink: './appointment?doctor=CharlotteKing'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Harper Green',
+    specialty: 'Infectious Diseases',
+    description: 'Specialized treatment for infections caused by bacteria, viruses, fungi, and parasites.',
+    name: 'Dr. Harper Green',
+    bookingLink: './appointment?doctor=HarperGreen'
   },
   {
     id: 29,
-    image: '../assets/data/doctor4.jpeg',
-    alt: 'Dr. Henry Scott',
-    specialty: 'Nephrology',
-    description: 'Specialized care for kidney diseases and conditions, including dialysis treatment.',
-    name: 'Dr. Henry Scott',
-    bookingLink: './appointment?doctor=HenryScott'
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
+    alt: 'Dr. Mason Adams',
+    specialty: 'Hematology',
+    description: 'Expert care for blood disorders, including anemia, leukemia, and clotting issues.',
+    name: 'Dr. Mason Adams',
+    bookingLink: './appointment?doctor=MasonAdams'
   },
   {
     id: 30,
-    image: '../assets/data/doctor2.jpeg',
+    image: 'https://img.freepik.com/free-photo/medical-background_53876-91010.jpg',
     alt: 'Dr. Grace Lewis',
     specialty: 'Neurology',
     description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
@@ -274,6 +274,7 @@ const doctors = [
     bookingLink: './appointment?doctor=GraceLewis'
   }
 ];
+
 
 
 
