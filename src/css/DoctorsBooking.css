@@ -64,7 +64,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-form {
+#appointment-form {
     max-width: 600px;
     margin: 0 auto;
     background-color: white;
@@ -177,7 +177,7 @@ form {
   
   .appointment-details li {
     border: 1px  solid rgba(0, 0, 0, 0.151);
-    min-width: 125px;
+    min-width: 200px;
     border-radius: 12px;
     padding: 5px;
     display: flex;
@@ -187,12 +187,12 @@ form {
 
     .doc-name{
       font-weight: 600;
-      font-size: 10px;
+      font-size: 15px;
     }
     
     .app-info{
       font-weight: 200;
-      font-size: 7px;
+      font-size: 15px;
       color: gray;
       display: flex;
       justify-content: space-around;
@@ -329,4 +329,16 @@ form {
             color: #00695c;
         }
     }
+}
+
+/* Your existing CSS here */
+
+@media (max-width: 500px) {
+  .patient-details{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+  }
+  .patient-details .img {
+    display: none;
+  }
 }
