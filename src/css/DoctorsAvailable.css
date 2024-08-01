@@ -14,6 +14,7 @@
         padding-top: 2.8rem;
         margin: auto;
         transition: font-size 1s linear;
+        font-weight: 800;
     }
 
 }
@@ -43,13 +44,13 @@
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: left;
 
-    height: 400px;
+    min-height: 500px;
     position: relative;
 
     .btn {
         background-color: #ffcc00;
         color: #00695c;
-        padding: 15px 30px;
+        padding: 12px 25px;
         text-decoration: none;
         border-radius: 25px;
         margin-top: 20px;
@@ -61,18 +62,21 @@
         left: 2.65rem;
         bottom: 2.5rem;
     }
+    img {
+        width: 100%;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+    h2 {
+        color: #00695c;
+        margin: 15px 0;
+        font-size: 25px;
+        font-weight: 600;
+    }
 }
 
-.service-card img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    transition: transform 0.3s;
-}
 
-.service-card h2 {
-    color: #00695c;
-    margin: 15px 0;
-}
+.service-card 
 
 .service-card p {
     color: #666;
