@@ -4,7 +4,6 @@ import 'flatpickr/dist/flatpickr.min.css'; // Import flatpickr styles
 import '../css/DoctorsBooking.css';
 
 import icon from '../assets/data/doctor.jpeg';
-import imag from '../assets/data/doctor.jpg';
 
 const Dbooking = () => {
   const [doctor, setDoctor] = useState('');
@@ -20,7 +19,7 @@ const Dbooking = () => {
       id: 1,
       name: 'Dr. John Doe',
       specialization: 'General Physician',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-arms-crossed_23-2148170980.jpg',
       alt: 'Dr. John Doe',
       specialty: 'General Consultation',
       description: 'Our experienced general physicians provide comprehensive health care for all age groups.',
@@ -30,7 +29,7 @@ const Dbooking = () => {
       id: 2,
       name: 'Dr. Sarah Williams',
       specialization: 'Pediatrician',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Sarah Williams',
       specialty: 'Pediatric Care',
       description: 'Specialized care for infants, children, and adolescents by our expert pediatricians.',
@@ -40,7 +39,7 @@ const Dbooking = () => {
       id: 3,
       name: 'Dr. Alan Brown',
       specialization: 'Dermatologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/happy-doctor_23-2148153982.jpg',
       alt: 'Dr. Alan Brown',
       specialty: 'Dermatology',
       description: 'Advanced skin care treatments and procedures by our skilled dermatologists.',
@@ -50,7 +49,7 @@ const Dbooking = () => {
       id: 4,
       name: 'Dr. Jane Smith',
       specialization: 'Cardiologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-stethoscope_23-2148887824.jpg',
       alt: 'Dr. Jane Smith',
       specialty: 'Cardiology',
       description: 'Expert cardiac care including diagnosis, treatment, and prevention of heart conditions.',
@@ -60,7 +59,7 @@ const Dbooking = () => {
       id: 5,
       name: 'Dr. Michael Johnson',
       specialization: 'Orthopedist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-happy-smiling-doctor_23-2148887315.jpg',
       alt: 'Dr. Michael Johnson',
       specialty: 'Orthopedics',
       description: 'Comprehensive care for bone, joint, and muscle conditions by our orthopedic specialists.',
@@ -70,7 +69,7 @@ const Dbooking = () => {
       id: 6,
       name: 'Dr. Emily Davis',
       specialization: 'Ophthalmologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Emily Davis',
       specialty: 'Ophthalmology',
       description: 'Advanced eye care services including surgeries and treatments for various eye conditions.',
@@ -80,7 +79,7 @@ const Dbooking = () => {
       id: 7,
       name: 'Dr. Mark Wilson',
       specialization: 'Dentist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/happy-doctor_23-2148153982.jpg',
       alt: 'Dr. Mark Wilson',
       specialty: 'Dental Care',
       description: 'Full range of dental services including cleanings, fillings, and cosmetic procedures.',
@@ -90,7 +89,7 @@ const Dbooking = () => {
       id: 8,
       name: 'Dr. Linda Taylor',
       specialization: 'Gynecologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Linda Taylor',
       specialty: 'Gynecology',
       description: 'Comprehensive women’s health services including prenatal care and gynecological surgeries.',
@@ -100,7 +99,7 @@ const Dbooking = () => {
       id: 9,
       name: 'Dr. Robert Brown',
       specialization: 'Neurologist',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-stethoscope_23-2148887824.jpg',
       alt: 'Dr. Robert Brown',
       specialty: 'Neurology',
       description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
@@ -110,7 +109,7 @@ const Dbooking = () => {
       id: 10,
       name: 'Dr. Laura Green',
       specialization: 'Endocrinologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Laura Green',
       specialty: 'Endocrinology',
       description: 'Specialized care for hormone-related conditions and disorders such as diabetes and thyroid issues.',
@@ -120,7 +119,7 @@ const Dbooking = () => {
       id: 11,
       name: 'Dr. Michael Adams',
       specialization: 'Hematologist',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-arms-crossed_23-2148170980.jpg',
       alt: 'Dr. Michael Adams',
       specialty: 'Hematology',
       description: 'Expert care for blood disorders, including anemia, leukemia, and clotting issues.',
@@ -130,7 +129,7 @@ const Dbooking = () => {
       id: 12,
       name: 'Dr. Alice Cooper',
       specialization: 'Rheumatologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Alice Cooper',
       specialty: 'Rheumatology',
       description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions affecting the joints and muscles.',
@@ -140,7 +139,7 @@ const Dbooking = () => {
       id: 13,
       name: 'Dr. David Lee',
       specialization: 'Gastroenterologist',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/happy-doctor_23-2148153982.jpg',
       alt: 'Dr. David Lee',
       specialty: 'Gastroenterology',
       description: 'Comprehensive care for digestive system disorders, including IBS, liver diseases, and more.',
@@ -150,7 +149,7 @@ const Dbooking = () => {
       id: 14,
       name: 'Dr. Nancy Wilson',
       specialization: 'Infectious Disease Specialist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Nancy Wilson',
       specialty: 'Infectious Diseases',
       description: 'Specialized treatment for infections caused by bacteria, viruses, fungi, and parasites.',
@@ -160,7 +159,7 @@ const Dbooking = () => {
       id: 15,
       name: 'Dr. Charles King',
       specialization: 'Pulmonologist',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-arms-crossed_23-2148170980.jpg',
       alt: 'Dr. Charles King',
       specialty: 'Pulmonology',
       description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
@@ -170,7 +169,7 @@ const Dbooking = () => {
       id: 16,
       name: 'Dr. Olivia Martinez',
       specialization: 'Urologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Olivia Martinez',
       specialty: 'Urology',
       description: 'Expert treatment for urinary tract and male reproductive system disorders.',
@@ -180,7 +179,7 @@ const Dbooking = () => {
       id: 17,
       name: 'Dr. James Wilson',
       specialization: 'Plastic Surgeon',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-arms-crossed_23-2148170980.jpg',
       alt: 'Dr. James Wilson',
       specialty: 'Plastic Surgery',
       description: 'Cosmetic and reconstructive surgical procedures to enhance appearance and restore function.',
@@ -190,7 +189,7 @@ const Dbooking = () => {
       id: 18,
       name: 'Dr. Sophia Lee',
       specialization: 'Oncologist',
-      image: '../assets/data/doctor2.jpeg',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
       alt: 'Dr. Sophia Lee',
       specialty: 'Oncology',
       description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
@@ -200,123 +199,24 @@ const Dbooking = () => {
       id: 19,
       name: 'Dr. William Scott',
       specialization: 'Nephrologist',
-      image: '../assets/data/doctor4.jpeg',
+      image: 'https://img.freepik.com/free-photo/doctor-smiling-with-stethoscope_23-2148887824.jpg',
       alt: 'Dr. William Scott',
       specialty: 'Nephrology',
-      description: 'Specialized care for kidney diseases and conditions, including dialysis treatment.',
+      description: 'Specialized care for kidney diseases, including dialysis and transplant management.',
       bookingLink: './appointment?doctor=WilliamScott'
     },
-    'EmmaBrown': {
+    'IsabellaGarcia': {
       id: 20,
-      name: 'Dr. Emma Brown',
-      specialization: 'Allergist and Immunologist',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Emma Brown',
-      specialty: 'Allergy and Immunology',
-      description: 'Diagnosis and treatment of allergies and immune system disorders.',
-      bookingLink: './appointment?doctor=EmmaBrown'
-    },
-    'DanielClark': {
-      id: 21,
-      name: 'Dr. Daniel Clark',
-      specialization: 'Sports Medicine Specialist',
-      image: '../assets/data/doctor4.jpeg',
-      alt: 'Dr. Daniel Clark',
-      specialty: 'Sports Medicine',
-      description: 'Treatment and rehabilitation of sports-related injuries and conditions.',
-      bookingLink: './appointment?doctor=DanielClark'
-    },
-    'AvaLewis': {
-      id: 22,
-      name: 'Dr. Ava Lewis',
-      specialization: 'Vascular Surgeon',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Ava Lewis',
-      specialty: 'Vascular Surgery',
-      description: 'Surgical treatment for vascular conditions, including arteries and veins.',
-      bookingLink: './appointment?doctor=AvaLewis'
-    },
-    'EthanTaylor': {
-      id: 23,
-      name: 'Dr. Ethan Taylor',
-      specialization: 'ENT Specialist',
-      image: '../assets/data/doctor4.jpeg',
-      alt: 'Dr. Ethan Taylor',
-      specialty: 'Otorhinolaryngology',
-      description: 'Comprehensive care for ear, nose, and throat disorders.',
-      bookingLink: './appointment?doctor=EthanTaylor'
-    },
-    'IsabellaAnderson': {
-      id: 24,
-      name: 'Dr. Isabella Anderson',
+      name: 'Dr. Isabella Garcia',
       specialization: 'Psychiatrist',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Isabella Anderson',
+      image: 'https://img.freepik.com/free-photo/portrait-smiling-female-doctor_23-2148849776.jpg',
+      alt: 'Dr. Isabella Garcia',
       specialty: 'Psychiatry',
-      description: 'Mental health services including therapy, medication management, and counseling.',
-      bookingLink: './appointment?doctor=IsabellaAnderson'
-    },
-    'MasonThomas': {
-      id: 25,
-      name: 'Dr. Mason Thomas',
-      specialization: 'Neurosurgeon',
-      image: '../assets/data/doctor4.jpeg',
-      alt: 'Dr. Mason Thomas',
-      specialty: 'Neurosurgery',
-      description: 'Surgical treatment for brain and spinal cord conditions and injuries.',
-      bookingLink: './appointment?doctor=MasonThomas'
-    },
-    'MiaHarris': {
-      id: 26,
-      name: 'Dr. Mia Harris',
-      specialization: 'Anesthesiologist',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Mia Harris',
-      specialty: 'Anesthesiology',
-      description: 'Expert anesthesia care for surgical procedures and pain management.',
-      bookingLink: './appointment?doctor=MiaHarris'
-    },
-    'AlexanderMartinez': {
-      id: 27,
-      name: 'Dr. Alexander Martinez',
-      specialization: 'Radiologist',
-      image: '../assets/data/doctor4.jpeg',
-      alt: 'Dr. Alexander Martinez',
-      specialty: 'Radiology',
-      description: 'Advanced imaging services including MRI, CT scans, and X-rays.',
-      bookingLink: './appointment?doctor=AlexanderMartinez'
-    },
-    'CharlotteGarcia': {
-      id: 28,
-      name: 'Dr. Charlotte Garcia',
-      specialization: 'Pathologist',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Charlotte Garcia',
-      specialty: 'Pathology',
-      description: 'Laboratory analysis of bodily fluids and tissues for diagnosis.',
-      bookingLink: './appointment?doctor=CharlotteGarcia'
-    },
-    'JacobLopez': {
-      id: 29,
-      name: 'Dr. Jacob Lopez',
-      specialization: 'Geriatrician',
-      image: '../assets/data/doctor4.jpeg',
-      alt: 'Dr. Jacob Lopez',
-      specialty: 'Geriatrics',
-      description: 'Specialized care for elderly patients, focusing on health and wellness in aging.',
-      bookingLink: './appointment?doctor=JacobLopez'
-    },
-    'AmeliaGonzalez': {
-      id: 30,
-      name: 'Dr. Amelia Gonzalez',
-      specialization: 'Reproductive Endocrinologist',
-      image: '../assets/data/doctor2.jpeg',
-      alt: 'Dr. Amelia Gonzalez',
-      specialty: 'Reproductive Endocrinology',
-      description: 'Fertility treatments and reproductive health services.',
-      bookingLink: './appointment?doctor=AmeliaGonzalez'
+      description: 'Comprehensive mental health care, including therapy, medication management, and counseling.',
+      bookingLink: './appointment?doctor=IsabellaGarcia'
     }
   };
+  
 
   useEffect(() => {
     const initializeFlatpickr = () => {
@@ -437,26 +337,10 @@ const Dbooking = () => {
               <button type="submit">Submit</button>
             </form>
             <div className="img">
-              <img src={imag} alt="not found" />
+              <img src="https://img.freepik.com/free-vector/man-doctor-woman-nurse-stand-with-patient-card-medical-staff-uniform-study-discuss-examination-result-make-note-therapist-giving-treatment-recommendation-prescription-putting-signature_575670-1316.jpg?t=st=1722523104~exp=1722526704~hmac=40ec6432e18d102b74c511e67003b1aced7247d3667046846ea18460d9aadd1f&w=740" alt="not found" />
             </div>
           </div>
           <hr className="hr" />
-          {/* <div className="appointment-details">
-            <h2>Appointments</h2>
-            <ul>
-              {appointments.map((appointment, index) => (
-                <li key={index}>
-                  <div className="doc-name">
-                    {appointment.doctor}
-                  </div>
-                  <div className="app-info">
-                    <span className="app-date">{appointment.date}</span>
-                    <span className="app-time">{appointment.time}</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div> */}
 
           <div className="appointment-details">
             <h2>Appointments</h2>
