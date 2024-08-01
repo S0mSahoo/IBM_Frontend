@@ -75,9 +75,9 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div id="right" data-aos='fade-up'>
-                        <div data-aos='fade-up' data-aos-delay='100'><strong>3 million</strong>youngs lose their life craving for food (Malnutrition), with<strong>821 million</strong>people are chronically undernourished.
+                        <div data-aos='fade-up'><strong>3 million</strong>youngs lose their life craving for food (Malnutrition), with<strong>821 million</strong>people are chronically undernourished.
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='150'><strong>5%</strong>adults suffer from depression globally, with over<strong>700,000</strong>people dying from suicide due to depression each year.</div>
+                        <div data-aos='fade-up'><strong>5%</strong>adults suffer from depression globally, with over<strong>700,000</strong>people dying from suicide due to depression each year.</div>
                     </div>
                 </div>
                 <div className="page3" data-aos='fade-up'>

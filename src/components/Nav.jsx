@@ -3,6 +3,8 @@ import '../css/Nav.css';
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { Link } from 'react-router-dom';
+// import logo from '../assets/logo.png'
+import logo from '../assets/Fascinate_theme.png'
 export default function Nav() {
     gsap.registerPlugin(useGSAP);
     useGSAP(
@@ -62,7 +64,7 @@ export default function Nav() {
             <div id="nav">
                 <Link to='/'>
                     <div id="n_left">
-                        <span>HNN</span>
+                        <img src={logo} alt="" />
                     </div>
                 </Link>
                 <div id="n_mid">

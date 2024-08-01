@@ -13,7 +13,7 @@ const DonateMoney = () => {
         citizenship: 'Indian'
     });
     const [paymentMethod, setPaymentMethod] = useState('');
-
+    const [termsAgreed, setTermsAgreed] = useState(false);
     const handleAmountChange = (e) => {
         setAmount(e.target.value);
         setCustomAmount('');
@@ -34,8 +34,17 @@ const DonateMoney = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Submit form logic
         alert('Form submitted');
+        setDetails({
+            name: '',
+            email: '',
+            phone: '',
+            address: '',
+            pan: '',
+            citizenship: 'Indian'
+        })
+        setPaymentMethod('')
+        setTermsAgreed(false)
     };
     let meals = amount===''?Math.ceil(Number(customAmount)/60):Math.ceil(Number(amount)/60)
     return (
@@ -114,7 +123,7 @@ const DonateMoney = () => {
 
                 <div className="confirmation">
                     <label>
-                        <input type="checkbox" required />
+                        <input type="checkbox" checked={termsAgreed} onChange={(e) => setTermsAgreed(e.target.checked)} required />
                         I agree to the terms and conditions
                     </label>
                 </div>

@@ -31,7 +31,7 @@ const Impacting = ({reviews}) => {
   }
 
   return (
-    <div className="flex flex-col w-[85vw] md:w-[700px] bg-white justify-center items-center mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md">
+    <div className="flex flex-col w-[700px] md:w-850px bg-white justify-center items-center mt-10 p-10 transition-all duration-700 hover:shadow-xl rounded-md relative top-5 left-0 ">
       <ImpactCard review={reviews[index]}/>
       <div className="flex text-3xl mt-1 gap-3 text-violet-400 font-bold mx-auto text-center">
         <div onClick={leftSlideHandler} className="cursor-pointer hover:text-violet-500"><FiChevronLeft /></div>
