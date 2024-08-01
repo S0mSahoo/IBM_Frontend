@@ -1,7 +1,7 @@
 // src/Homepage.js
 
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../css/Homepage.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -85,14 +85,14 @@ const Homepage = () => {
                     <span data-aos='fade-up'>24/7 Telemedicine Service</span>
                     <h1 data-aos='fade-up'>Health should always be within reach</h1>
                     <p data-aos='fade-up'>See a doctor or therapist from home, using your phone, tablet or computer.</p>
-                    <button data-aos='fade-up' data-aos-offset='90'>Find your Doctor</button>
+                    <button data-aos='fade-up' data-aos-offset='90'><Link to='/booking'>Find your Doctor</Link></button>
                 </div>
                 <div className=" page3 page4" data-aos='fade-up'>
                     <img data-aos='fade-up' src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..." />
                     <span data-aos='fade-up'>Apply for meal support</span>
                     <h1 data-aos='fade-up'>Partner with us to end Hunger</h1>
                     <p data-aos='fade-up'>Reach out to us if you're an NGO, private organisation or educational institute that is in need of food support.</p>
-                    <button data-aos='fade-up' data-aos-offset='100'>Partner with Us</button>
+                    <button data-aos='fade-up' data-aos-offset='100'><a href="/" target='_blank'>Partner with Us</a></button>
                 </div>
             </div>
         </div>

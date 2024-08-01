@@ -1,0 +1,110 @@
+.back{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    filter: brightness(.7);
+    mix-blend-mode: darken;
+}
+
+.hc_main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hc_page1{
+    padding-bottom: 4vh;
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    h1{
+        /* border: 2px solid red; */
+        width: 80%;
+        /* position: absolute; */
+        /* bottom: 12%; */
+        color: #fff;
+        /* text-transform: uppercase; */
+        font-weight: 600;
+        font-size: 6vmin;
+        text-align: center;
+        text-shadow: 0 0 10px #0000008d;
+        position: relative;
+        display: inline;
+        strong{
+            font-weight: 700;
+        }
+    }
+    h4{
+        color: #fff;
+        font-size: 3vmin;
+        font-weight: 400;
+        text-shadow: 0 0 10px #0000008d;
+    }
+    button{
+        border: 2px solid #fff;
+        padding: .8rem 2rem;
+        /* position: absolute; */
+        /* bottom: 3%; */
+        border-radius: 50px;
+        transition: scale .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+        }
+        &:hover{
+            background-color: #023460;
+            border: none;
+            scale: 1.1;
+        }
+
+    }
+}
+
+#pink{
+    color: #ca01be;
+}
+
+#green{
+    color: #0fac26;
+}
+
+#cyan{
+    color: rgb(0, 140, 175);
+}
+#violet{
+    color: #6240e8;
+}
+
+.click{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .hc_page1{
+        h1{
+            font-size: 6.5vmin;
+        }
+        button{
+            display: flex;
+            align-items: center;
+            padding: 3vmin 5vmin;
+            margin: auto;
+            a{
+                font-size: 4vmin;
+            }
+        }
+    }
+}

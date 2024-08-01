@@ -310,7 +310,7 @@ const DonateFood = () => {
 
       <button type="submit" id='submit'>Submit</button>
 
-      <div className="footer">
+      <div className="salutation">
         <p>Thank you for your generosity!</p>
       </div>
     </form>
