@@ -49,12 +49,11 @@
         & > span{
             display: inline-flex;
             /* border: 2px solid red; */
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             margin-right: 15px;
             span{
                 display: inline-flex;
                 /* border: 2px solid red; */
-                padding: 1vh 0;
                 transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
                 &:hover{
                     transform: scale(1.5) translateZ(50px);
@@ -299,11 +298,12 @@
 
     button {
         border: none;
-        background-color: royalblue;
+        background-color: #023460;
         color: #fff;
         padding: 2vh 3vw;
         border-radius: 20px;
         font-size: 2vmin;
+        font-weight: 600;
     }
 }
 
@@ -376,22 +376,7 @@
     }
 }
 
-@media (max-width: 600px) {}
-
-@media(max-width: 400px) {
-    .page1 {
-        h1 {
-            padding: 1vh 10vw;
-            font-size: 15vmin;
-            line-height: 15vmin;
-        }
-
-        p {
-            font-size: 3vmin;
-            line-height: 4vmin;
-        }
-    }
-
+@media (max-width: 600px) {
     .page2 {
         /* padding: 12vh 0 10vh 0; */
         width: 50%;
@@ -404,6 +389,45 @@
 
         &>* {
             height: 100%;
+        }
+    }
+
+    #left,
+    #right,
+    #top,
+    #bottom,
+    #center{
+        & > div{
+            display: inline-flex;
+            flex-wrap: nowrap;
+            strong{
+                font-size: 2.2vmin;
+            }
+        }
+    }
+    #left {
+        &>div:nth-child(1) {
+            height: 70%;
+        }
+    }
+    #right {
+        &>div:nth-child(1) {
+            height: 50%;
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    .page1 {
+        h1 {
+            padding: 1vh 10vw;
+            font-size: 15vmin;
+            line-height: 15vmin;
+        }
+
+        p {
+            font-size: 3vmin;
+            line-height: 4vmin;
         }
     }
     
