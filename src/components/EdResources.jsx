@@ -9,11 +9,11 @@ import { GrArticle } from "react-icons/gr";
 import { MdOndemandVideo } from "react-icons/md";
 
 const EdResources = () => {
-  return (
+    return (
     <div className='parent'>
         {/* heading */}
         <div>
-            <h1 className='ed-heading  text-center align-center text-5xl my-8'><span>Educational</span> Resources 📖</h1>
+            <h1 className='ed-heading'><span>Educational</span> Resources 📖</h1>
         </div>
 
         {/* ebooks and articles */}
@@ -71,23 +71,6 @@ const EdResources = () => {
             </div>
 
         </div>
-
-        {/* podcasts and videos */}
-        {/* <div className='parent-cont'>
-            <Link to='/podcasts'>
-                <div className='child-cont'>
-                    <img src="" alt="" />
-                    <h2 className='text-xl text-gray-200 p-2 text-center'>Podcasts</h2>
-                </div>
-            </Link>
-            <Link to='videos'>
-                <div className='child-cont'>
-                    <img src="" alt="" />
-                    <h2 className='text-xl text-gray-200 p-2 text-center'>Videos</h2>
-                </div>
-            </Link>
-        </div> */}
-
     </div>
     )
 }
