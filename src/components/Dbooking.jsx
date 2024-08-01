@@ -314,6 +314,7 @@ const Dbooking = () => {
             <h2 id="doctor-name">{doctorInfo.name}</h2>
             <p id="doctor-specialization">{doctorInfo.specialization}</p>
           </div>
+          
           <div className='patient-details'>
             <form id="appointment-form" onSubmit={handleSubmit}>
               <label htmlFor="name">Name:</label>
