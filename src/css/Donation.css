@@ -218,6 +218,27 @@
 }
 
 @media(max-width: 550px) {
+    .donation-head{
+        font-size: 9vmin;
+    }
+    .main{
+        padding: 0;
+        &>div{
+            width: 100%;
+        }
+    }
+    .content-1{
+        padding: 0 3vw;
+        padding-top: 10vh;
+        img{
+            top: -20vh;
+        }
+    }
+    .donation-type{
+        span{
+            font-size: 3.5vmin;
+        }
+    }
     .right {
         width: 100%;
     }

@@ -299,11 +299,14 @@
     button {
         border: none;
         background-color: #023460;
-        color: #fff;
         padding: 2vh 3vw;
         border-radius: 20px;
         font-size: 2vmin;
         font-weight: 600;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
     }
 }
 

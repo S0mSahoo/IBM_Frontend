@@ -19,6 +19,7 @@ import {
   Route
 } from "react-router-dom";
 import Homepage from './components/Homepage';
+import HealthCare from './components/HealthCare';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Homepage/>} />
+          <Route path='/healthcare' element={<HealthCare />}></Route>
           <Route path='/donation' element={<Donation />} />
           <Route path='/impacts' element={<Impacts />} />
           <Route path='/education' element={<EdResources />}></Route>

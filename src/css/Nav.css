@@ -109,6 +109,13 @@
 }
 
 @media(max-width: 666px) {
+
+    #n_left{
+        img{
+            width: 70px;
+            height: 30px;
+        }
+    }
     #n_mid, #n_right {
         display: none;
     }
