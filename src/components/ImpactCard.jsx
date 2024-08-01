@@ -5,18 +5,18 @@ import ReviewStars from './ReviewStar.jsx';
 
 const ImpactCard = ({review}) => {
     return (
-        <div className="flex flex-col md:relative h-fit">
+        <div className="relative flex flex-col md:relative h-fit">
 
-            <div className="top-[-7rem] z-10 mx-auto relative ">
-                <div className=" w-[140px] h-[140px] z-25"><img className="relative aspect-square object-cover rounded-full top-20" src={review.image}  /></div>
-                <div className=" w-[140px] h-[140px] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]"></div>
+            <div className="flex justify-content-center">
+                <div className=" w-[140px] h-[140px] z-25"><img className="aspect-square object-cover rounded-full" src={review.image}  /></div>
+                <div className=" w-[22vw] h-[22vw] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]"></div>
             </div>
 
-            <div className="text-center mt-1">
+            <div className="text-center my-3">
                 <p className="font-bold text-2xl capitalize leading-3">{review.name}</p>
             </div>
 
-            <div  className="text-center mt-4">
+            <div  className="text-center">
                 <p className="text-violet-300 text-sm uppercase">{review.ailment}</p>
             </div>
 

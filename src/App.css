@@ -11,3 +11,7 @@ body::-webkit-scrollbar-thumb{
 .bg-img{
     background-image: url('https://img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-4402.jpg?t=st=1722414891~exp=1722418491~hmac=fb19aa92f7a7956e03bf9f2deecc1f17a30e6b3a98b27ba3affcb3d17dd2869c&w=1380');
 }
+
+body{
+    overflow-x: hidden;
+}
