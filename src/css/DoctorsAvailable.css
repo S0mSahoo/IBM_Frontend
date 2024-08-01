@@ -1,56 +1,36 @@
-
-
 .services {
-    
-    padding-top: 30px;
+    border: 2px solid black;
+    padding-top: 80px;
+    padding-bottom: 180px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
-.services h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #00695c;
-    padding-top: 2.8rem;
-    margin: auto;
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #00695c;
+        padding-top: 2.8rem;
+        margin: auto;
+        transition: font-size 1s linear;
+    }
+
 }
 
 .service-cards {
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 
-@media (max-width: 1200px) {
-    .service-cards {
-        width: 90%;
-    }
-}
-
-@media (max-width: 992px) {
-    .service-cards {
-        justify-content: center; 
-    }
-}
-
-@media (max-width: 768px) {
-    .service-cards {
-        width: 100%;
-    }
-}
-
-@media (max-width: 576px) {
-    .service-cards {
-        flex-direction: column; 
-        align-items: center;
-    }
-}
 
 .service-card {
     background-color: white;
@@ -58,12 +38,29 @@
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.137);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: left;
 
     height: 400px;
     position: relative;
+
+    .btn {
+        background-color: #ffcc00;
+        color: #00695c;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 20px;
+        display: inline-block;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+
+        position: absolute;
+        left: 2.65rem;
+        bottom: 2.5rem;
+    }
 }
 
 .service-card img {
@@ -90,32 +87,112 @@
     transform: scale(1.05);
 }
 
-/* Button Styles */
-.btn {
-    background-color: #ffcc00;
-    color: #00695c;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 20px;
-    display: inline-block;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
 
-    position: absolute;
-    left: 2.65rem;
-    bottom: 2.5rem;
-}
+
 
 .btn:hover {
     background-color: #e6b800;
     color: white;
 }
 
-/* Responsive Styles */
+
+@media (max-width: 1200px) {
+    .service-cards {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .service-cards {
+        justify-content: center;
+    }
+
+    .service-card {
+        border: 2px solid rgba(0, 0, 0, 0.137);
+        width: 250px;
+
+        .btn {
+            padding: 15px;
+            left: 2rem;
+            bottom: 1.5rem;
+        }
+    }
+}
+
 @media (max-width: 768px) {
+    .service-cards {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .bookingd h1 {
+        padding-top: 6rem;
+        font-size: 26px;
+    }
+    .service-cards {
+        overflow: hidden;
+        /* flex-direction: column; */
+        align-items: center;
+
+        h2{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+
+    .bookingd h1 {
+        padding-top: 6rem;
+        font-size: 26px;
+    }
+
     .service-cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .service-card {
+        width: 200px;
+    }
+
+    .service-card {
+        border: 2px solid rgba(0, 0, 0, 0.137);
+        width: 250px;
+
+        .btn {
+            padding: 15px;
+            left: 2rem;
+            bottom: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 280px){
+    .bookingd h1 {
+        padding-top: 6rem;
+        font-size: 20px;
+    }
+
+    .service-card {
+        width: 150px;
+        margin: 1rem;
+    }
+    .service-card {
+        border: 2px solid rgba(0, 0, 0, 0.137);
+        width: 200px;
+        margin: 1rem;
+
+        .btn {
+            padding: 10px;
+            left: 1rem;
+            bottom: 1.5rem;
+        }
+
+        h2{
+            font-size: 1rem;
+            /* border: 2px outset black; */
+        }
     }
 }
