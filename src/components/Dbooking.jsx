@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css'; // Import flatpickr styles
+import 'flatpickr/dist/flatpickr.min.css'; 
 import '../css/DoctorsBooking.css';
 
 import icon from '../assets/data/doctor.jpeg';
 
+
+
 const Dbooking = () => {
+
+  
   const [doctor, setDoctor] = useState('');
   const [doctorInfo, setDoctorInfo] = useState({
     name: 'Select a Doctor',

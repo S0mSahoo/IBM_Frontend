@@ -294,7 +294,7 @@ const DoctorsAvailable = () => {
             </div>
           ))}
         </div>
-      </section>A
+      </section>
     </main>
   );
 };
