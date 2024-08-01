@@ -70,7 +70,7 @@ export default function Nav() {
                     <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
                     <li onClick={closeHam}><Link to='/education'>Education</Link></li>
                     <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
-                    <li onClick={closeHam}><Link to='/'>Support</Link></li>
+                    <li onClick={closeHam}><Link to='/about'>About Us</Link></li>
                     {/* <li onClick={closeHam}>About Us</li> */}
                 </div>
                 <div id="n_right">
@@ -95,7 +95,7 @@ export default function Nav() {
                             <li onClick={closeHam}><Link to='/'>HealthCare</Link></li>
                             <li onClick={closeHam}><Link to='/education'>Education</Link></li>
                             <li onClick={closeHam}><Link to='/impacts'>Impacts</Link></li>
-                            <li onClick={closeHam}><Link to='/'>Support</Link></li>
+                            <li onClick={closeHam}><Link to='/about'>About Us</Link></li>
                             {/* <li onClick={closeHam}>About Us</li> */}
                         </div>
                     </div>

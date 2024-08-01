@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/Nav'; // Corrected import statement
 import Donation from './components/Donation'; 
 import Impacts from './components/Impacts';
+import Footer from './components/Footer';
 
 import EdResources from './components/EdResources';
 import Podcasts from './components/Podcasts';
@@ -10,6 +11,7 @@ import Videos from './components/Videos';
 import EBooks from './components/EBooks';
 import Davailable from './components/Davailable';
 import Dbooking from './components/Dbooking';
+import About from './components/About';
 
 import {
   BrowserRouter as Router,
@@ -34,9 +36,12 @@ function App() {
           <Route path='/ebooks' element={<EBooks/>} />
           <Route path='/booking' element={<Davailable/>} />
           <Route path='/appointment' element={<Dbooking/>} />
+          <Route path='/about' element={<About/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
+    
   );
 }
 
