@@ -391,6 +391,15 @@ const Dbooking = () => {
     }
   };
 
+  function formatDate(dateString) {
+    const [year, month, day] = dateString.split('-');
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June",
+      "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const monthName = monthNames[parseInt(month, 10) - 1];
+    return `${day} ${monthName} ${year}`;
+  }
+
+
   return (
     <div>
       <div className='appointment'>
@@ -432,20 +441,40 @@ const Dbooking = () => {
             </div>
           </div>
           <hr className="hr" />
+          {/* <div className="appointment-details">
+            <h2>Appointments</h2>
+            <ul>
+              {appointments.map((appointment, index) => (
+                <li key={index}>
+                  <div className="doc-name">
+                    {appointment.doctor}
+                  </div>
+                  <div className="app-info">
+                    <span className="app-date">{appointment.date}</span>
+                    <span className="app-time">{appointment.time}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div> */}
+
           <div className="appointment-details">
             <h2>Appointments</h2>
             <ul>
               {appointments.map((appointment, index) => (
                 <li key={index}>
-                  <strong>Name:</strong> {appointment.name} <br />
-                  <strong>Email:</strong> {appointment.email} <br />
-                  <strong>Doctor:</strong> {appointment.doctor} <br />
-                  <strong>Date:</strong> {appointment.date} <br />
-                  <strong>Time:</strong> {appointment.time}
+                  <div className="doc-name">
+                    {appointment.doctor}
+                  </div>
+                  <div className="app-info">
+                    <span className="app-date">{formatDate(appointment.date)}</span>
+                    <span className="app-time">{appointment.time}</span>
+                  </div>
                 </li>
               ))}
             </ul>
           </div>
+
         </div>
       </div>
     </div>
