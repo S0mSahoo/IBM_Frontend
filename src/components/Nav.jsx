@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../css/Nav.css';
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { Link } from 'react-router-dom';
 import logo from '../assets/Fascinate_theme.png'
-export default function Nav() {
+export default function Nav({onRender}) {
+    useEffect(() => {
+        onRender();
+    }, [onRender]);
     gsap.registerPlugin(useGSAP);
     useGSAP(
         () => {

@@ -14,8 +14,10 @@ const PERSON_NAME = "(You)";
 let i = 0;
 let used_nums = [];
 addChat(BOT_NAME, BOT_IMG, "left", questions[i]+options[i]);
-
-msgerForm.addEventListener("submit", event => {
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+msgerForm.addEventListener("submit", async event => {
   event.preventDefault();
   const msgText = msgerInput.value;
   console.log(msgText);
@@ -24,14 +26,16 @@ msgerForm.addEventListener("submit", event => {
   addChat(PERSON_NAME, PERSON_IMG, "right", msgText);
   if (msgText.toUpperCase() == answers[i].charAt(8)) {
     let correct_msg = "Correct! 😄 <br> The right " + answers[i];
+    await delay(1500)
     addChat(BOT_NAME, BOT_IMG, "left", correct_msg, 1);
   }
   else {
     let incorrect_msg = "Sory 😓 <br> The right " + answers[i];
+    await delay(1500)
     addChat(BOT_NAME, BOT_IMG, "left", incorrect_msg, 0);
   }
   setNextQuestion();
-  setTimeout(() => {addChat(BOT_NAME, BOT_IMG, "left", questions[i]+options[i]);}, 1000);
+  setTimeout(() => {addChat(BOT_NAME, BOT_IMG, "left", questions[i]+options[i]);}, 1500);
 });
 
 function setNextQuestion() {
