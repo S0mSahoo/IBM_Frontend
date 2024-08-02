@@ -28,9 +28,6 @@ const Articles = () => {
               </div>
               <hr />
               <div className='article-last-section'>
-                <p>{
-                  window.open(story.content)
-                  }</p>
                 <a href={story.content}>Read More</a>
               </div>
             </div>

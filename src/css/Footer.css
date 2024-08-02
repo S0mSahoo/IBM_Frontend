@@ -1,5 +1,5 @@
 .footer {
-    background-color: #151617;
+    background-color: #023460;
     padding: 20px 0;
     border-top: 1px solid #f6f4f4;
   }
@@ -7,7 +7,6 @@
   .footer-text {
     margin: 0;
     font-size: 14px;
-    color:#ffdc0e;
   }
   
   .footer-social {
@@ -25,9 +24,15 @@
   .footer-social a {
     color: #f5f1f1;
     font-size: 16px;
+    & > *{
+      transition: scale .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
   }
   
   .footer-social a:hover {
-    color: #007bff;
+    & > *{
+      scale: 1.5;
+      color: #007bff;
+    }
   }
   

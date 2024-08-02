@@ -13,13 +13,13 @@ const Donation = () => {
     setDonationType(type);
   };
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, -50)
   }, [])
   return (
-    <div id='donation' data-aos='fade-up'>
+    <div id='donation'>
       <h1 data-aos='fade-up' className='donation-head'>Make a&nbsp;<span> Donation!!</span></h1>
       <div data-aos='fade-up' className="main">
-        <div data-aos='fade-up' className="left">
+        <div className="left">
           <div className="content-1">
             <img src="https://images.ctfassets.net/z0x29akdg5eb/27Zr13KQjfdDvNc0T4L1wx/daa855efe9c03b41e373bc2a27d432fd/2024118_SDN_PortSudanDistributions_AbubakarGARENLABEI__4_of_41_-b.jpg?w=842&h=527&fit=fill&q=80&fm=avif" alt="..." />
             <div>
@@ -42,8 +42,8 @@ const Donation = () => {
               Addressing food insecurity requires a multifaceted approach, including sustainable agricultural practices, improved food distribution systems, and social safety nets. International cooperation and local community involvement are crucial in developing resilient food systems that can withstand the challenges of a changing global landscape. Ensuring food security is essential for achieving broader development goals, including poverty reduction, health improvement, and social stability.</p>
           </div>
         </div>
-        <div data-aos='fade-up' className="right">
-          <div data-aos='fade-up' className='donation-type'>
+        <div className="right">
+          <div className='donation-type'>
             <span className={donationType === 'money' ? 'active' : ''} onClick={() => handleClick('money')}>Donate Money</span>
             <span className={donationType === 'food' ? 'active' : ''} onClick={() => handleClick('food')}>Donate Food</span>
           </div>
