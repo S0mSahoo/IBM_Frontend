@@ -13,6 +13,8 @@ import Davailable from './components/Davailable';
 import Dbooking from './components/Dbooking';
 import About from './components/About';
 
+import Chatbot from './components/Chatbot';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -40,6 +42,7 @@ function App() {
           <Route path='/appointment' element={<Dbooking/>} />
           <Route path='/about' element={<About/>} />
         </Routes>
+        <Chatbot/>
         <Footer/>
       </div>
     </Router>
