@@ -32,7 +32,6 @@ const Chatbot = () => {
 		chat_exp.classList.remove("expanded");
 		const chat_entry = document.getElementById("div_0");
 		chat_entry.innerHTML = `<img src="HNN-quizbot/robot.png" alt="..." />`
-		console.log("exit butoon div clicked")
 	});
 
 	const Expand = () => {

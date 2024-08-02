@@ -164,60 +164,6 @@ const doctors = [
     name: 'Dr. Sophia Lee',
     bookingLink: './appointment?doctor=SophiaLee'
   },
-  {
-    id: 1,
-    image: 'https://media.istockphoto.com/id/690210372/photo/smiling-male-doctor-with-arms-crossed-in-hospital.jpg?s=612x612&w=0&k=20&c=xIxP4kNxRDRzE6KfMp2a56O3l6Z-JvF1k3wuKKGJsmQ=',
-    alt: 'Dr. John Doe',
-    specialty: 'General Consultation',
-    description: 'Our experienced general physicians provide comprehensive health care for all age groups.',
-    name: 'Dr. John Doe',
-    bookingLink: './appointment?doctor=JohnDoe'
-  },
-  {
-    id: 2,
-    image: 'https://img.freepik.com/premium-photo/attractive-female-doctor-white-coat-glasses_88135-6126.jpg?w=900',
-    alt: 'Dr. Sarah Williams',
-    specialty: 'Pediatric Care',
-    description: 'Specialized care for infants, children, and adolescents by our expert pediatricians.',
-    name: 'Dr. Sarah Williams',
-    bookingLink: './appointment?doctor=SarahWilliams'
-  },
-  {
-    id: 3,
-    image: 'https://img.freepik.com/free-photo/attractive-young-male-nutriologist-lab-coat-smiling-against-white-background_662251-2960.jpg?t=st=1722536928~exp=1722540528~hmac=8de652f42231c4d0a20c2c32480f6c6ccc5df6bc8fb290e9a4a92e5ceee753b1&w=900',
-    alt: 'Dr. Alan Brown',
-    specialty: 'Dermatology',
-    description: 'Advanced skin care treatments and procedures by our skilled dermatologists.',
-    name: 'Dr. Alan Brown',
-    bookingLink: './appointment?doctor=AlanBrown'
-  },
-  {
-    id: 4,
-    image: 'https://media.istockphoto.com/id/1207212127/photo/experience-you-can-trust.jpg?s=612x612&w=0&k=20&c=V0sNP_j9l3QQKwQ3dU4d4cJGgvdqceuXCj3__6m2So4=',
-    alt: 'Dr. Jane Smith',
-    specialty: 'Cardiology',
-    description: 'Expert cardiac care including diagnosis, treatment, and prevention of heart conditions.',
-    name: 'Dr. Jane Smith',
-    bookingLink: './appointment?doctor=JaneSmith'
-  },
-  {
-    id: 5,
-    image: 'https://img.freepik.com/free-photo/attractive-medical-professional-uniform-standing-with-arms-crossed-against-isolated-background_662251-416.jpg?w=740&t=st=1722536442~exp=1722537042~hmac=de1514445b16db931ed8ff6f2203c353a08ab4395e43bdb86ec1d374d42dfdce',
-    alt: 'Dr. Michael Johnson',
-    specialty: 'Orthopedics',
-    description: 'Comprehensive care for bone, joint, and muscle conditions by our orthopedic specialists.',
-    name: 'Dr. Michael Johnson',
-    bookingLink: './appointment?doctor=MichaelJohnson'
-  },
-  {
-    id: 6,
-    image: 'https://img.freepik.com/premium-photo/studio-shot-young-muscular-man-doctor-against-white-backgroun_251136-51166.jpg?w=996',
-    alt: 'Dr. Emily Davis',
-    specialty: 'Ophthalmology',
-    description: 'Advanced eye care services including surgeries and treatments for various eye conditions.',
-    name: 'Dr. Emily Davis',
-    bookingLink: './appointment?doctor=EmilyDavis'
-  },
   
  
 ];
