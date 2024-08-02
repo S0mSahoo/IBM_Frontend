@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../css/EdResources.css';
+import Aos from 'aos';
+Aos.init()
 
 // react icons
 import { SiGooglepodcasts } from "react-icons/si";
@@ -13,7 +15,7 @@ const EdResources = () => {
         window.scrollTo(0, 0)
     }, [])
     return (
-    <div className='parent'>
+    <div className='parent' data-aos='fade-up'>
         {/* heading */}
         <div>
             <h1 className='ed-heading'><span>Educational</span> Resources 📖</h1>

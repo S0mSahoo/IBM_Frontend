@@ -3,6 +3,7 @@ import '../css/Articles.css';
 import articles from '../data/articles.json'
 
 const Articles = () => {
+
   return (
     <div className='articles-parent'>
       <div>
@@ -27,7 +28,9 @@ const Articles = () => {
               </div>
               <hr />
               <div className='article-last-section'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic voluptas vitae at voluptate. A nemo quae distinctio recusandae laboriosam assumenda fugit omnis? Maxime dicta a quibusdam sed iusto amet ad animi molestia...</p>
+                <p>{
+                  window.open(story.content)
+                  }</p>
                 <a href={story.content}>Read More</a>
               </div>
             </div>

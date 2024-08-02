@@ -231,8 +231,8 @@ const DoctorsAvailable = () => {
   })
   return (
     <main>
-      <section className="services bookingd">
-        <h1>Doctors Available</h1>
+      <section className="services">
+        <h1><span>Doctors</span> Available</h1>
         <div className="service-cards">
           {doctors.map((doctor) => (
             <div key={doctor.id} className="service-card">

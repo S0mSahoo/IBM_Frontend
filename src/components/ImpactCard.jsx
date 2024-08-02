@@ -17,16 +17,16 @@ const ImpactCard = ({review}) => {
             </div>
 
             <div  className="text-center">
-                <p className="text-violet-300 text-sm uppercase">{review.ailment}</p>
+                <p className="text-royalblue text-md uppercase">{review.ailment}</p>
             </div>
 
-            <div className="text-violet-400 mx-auto mt-2"><FaQuoteLeft/></div>
+            <div className="text-theme mx-auto mt-2"><FaQuoteLeft/></div>
 
             <div className="text-center mt-2 text-slate-500 ">
                 {review.text}
             </div>
 
-            <div className="text-violet-400 mx-auto mt-2"><FaQuoteRight/></div>
+            <div className="text-theme mx-auto mt-2"><FaQuoteRight/></div>
 
             <div><ReviewStars star={review.star}/></div>
 
