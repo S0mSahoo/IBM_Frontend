@@ -221,6 +221,7 @@ const Dbooking = () => {
   }, []);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     const urlParams = new URLSearchParams(window.location.search);
     const doctorParam = urlParams.get('doctor');
 

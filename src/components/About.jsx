@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/About.css";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -7,6 +7,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPinterestP } from "react-icons/fa";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     // <div className="parent-con">
