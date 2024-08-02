@@ -5,7 +5,10 @@
     right:5%;
     height:160px;
     width:  90px;
-    background-image:  linear-gradient(red, green);
+    background-image:  url('../HNN-quizbot/robot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
     cursor: pointer;
 }
 
@@ -19,13 +22,28 @@
     position: relative;
     width:  auto;
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0,0,0,0);
+    display: flex;
+
+}
+.chat-exit-button-filler1{
+	position: relative;
+	width: 80%;
+	height: 100%;
+
+}
+.chat-exit-button-filler2{
+	position: relative;
+	width: 20%;
+	height: 100%;
+    background-size: cover;
+    background-position: center;
+
 }
 .expanded {
     position: fixed;
     top: 15%;
-    left:50%;
-    right: auto;
+    right: 5%;
     width:300px;
     height:500px;
     background-image:  linear-gradient(red, blue);
