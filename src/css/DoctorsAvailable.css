@@ -1,7 +1,7 @@
 .services {
     /* border: 2px solid black; */
     padding-top: 80px;
-    padding-bottom: 180px;
+    padding-bottom: 20rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -10,11 +10,17 @@
     h1 {
         font-size: 2.5em;
         margin-bottom: 20px;
-        color: #00695c;
+        color: #023460;
         padding-top: 2.8rem;
+        padding-bottom: 5rem;
         margin: auto;
-        transition: font-size 1s linear;
+        transition: font-size 0.5s linear;
         font-weight: 800;
+
+        font-size: 8vmin;
+        text-transform: uppercase;
+        font-weight: 800;
+        line-height: 9vmin;
     }
 
 }
@@ -48,8 +54,8 @@
     position: relative;
 
     .btn {
-        background-color: #ffcc00;
-        color: #00695c;
+        background-color: #023460;
+        color: white;
         padding: 12px 25px;
         text-decoration: none;
         border-radius: 25px;
@@ -62,13 +68,16 @@
         left: 2.65rem;
         bottom: 2.5rem;
     }
+
     img {
         width: 100%;
+        min-height: 150px;
         border-radius: 10px;
         transition: transform 0.3s;
     }
+
     h2 {
-        color: #00695c;
+        color: #023460;
         margin: 15px 0;
         font-size: 25px;
         font-weight: 600;
@@ -76,15 +85,16 @@
 }
 
 
-.service-card 
-
-.service-card p {
+.service-card .service-card p {
     color: #666;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    scale: 1.02;
+    box-shadow: 0 0 10px grey;
+    cursor: pointer;
 }
 
 .service-card:hover img {
@@ -107,6 +117,10 @@
 }
 
 @media (max-width: 992px) {
+    .bookingd h1 {
+        font-size: 7vmin;
+    }
+
     .service-cards {
         justify-content: center;
     }
@@ -123,7 +137,11 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
+    .bookingd h1 {
+        font-size: 5.5vmin;
+    }
+
     .service-cards {
         width: 100%;
     }
@@ -134,12 +152,13 @@
         padding-top: 6rem;
         font-size: 26px;
     }
+
     .service-cards {
         overflow: hidden;
         /* flex-direction: column; */
         align-items: center;
 
-        h2{
+        h2 {
             font-size: 1.2rem;
         }
     }
@@ -150,6 +169,8 @@
     .bookingd h1 {
         padding-top: 6rem;
         font-size: 26px;
+        white-space: pre-wrap;
+        /* word-break: break-word; */
     }
 
     .service-cards {
@@ -173,7 +194,7 @@
     }
 }
 
-@media (max-width: 280px){
+@media (max-width: 280px) {
     .bookingd h1 {
         padding-top: 6rem;
         font-size: 20px;
@@ -183,6 +204,7 @@
         width: 150px;
         margin: 1rem;
     }
+
     .service-card {
         border: 2px solid rgba(0, 0, 0, 0.137);
         width: 200px;
@@ -194,7 +216,7 @@
             bottom: 1.5rem;
         }
 
-        h2{
+        h2 {
             font-size: 1rem;
             /* border: 2px outset black; */
         }
