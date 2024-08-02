@@ -72,7 +72,7 @@
 .listen {
     border: 0.1em solid black;
     font-size: 1em;
-    background-color: red;
+    background-color: #023460;
     color: white;
     border-radius: 10%;
     padding: 0.5em 1em;
@@ -81,7 +81,7 @@
     box-shadow: 3px 3px black;
 }
 .listen:hover {
-    background-color: rgb(219, 5, 5);
+    background-color: #135ea5;
     color: white;
     box-shadow: 0 0;
     /* border: 0.1em solid black; */
