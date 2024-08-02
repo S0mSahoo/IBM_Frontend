@@ -6,7 +6,7 @@ const EBooks = () => {
   return (
     <div className='eBooks-parent'>
       <div>
-        <h1 className='eBooks-heading '>eBooks 🔖</h1>
+        <h1 className='eBooks-heading '><span>e</span>Books 🔖</h1>
       </div>
       
       <div className='eBooks-grid'>

@@ -16,6 +16,8 @@
         margin: auto;
         transition: font-size 0.5s linear;
         font-weight: 800;
+        span{
+            color: royalblue;
 
         font-size: 8vmin;
         text-transform: uppercase;
@@ -55,6 +57,7 @@
 
     .btn {
         background-color: #023460;
+        color: #fff;
         color: white;
         padding: 12px 25px;
         text-decoration: none;
@@ -81,6 +84,9 @@
         margin: 15px 0;
         font-size: 25px;
         font-weight: 600;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
@@ -105,8 +111,7 @@
 
 
 .btn:hover {
-    background-color: #e6b800;
-    color: white;
+    background-color: royalblue;
 }
 
 

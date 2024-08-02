@@ -5,6 +5,9 @@
   font-weight: 600;
   padding-top: 5rem;
   text-align: center;
+  span{
+    color: royalblue;
+  }
 }
 .eBooks-grid{
   display: flex;

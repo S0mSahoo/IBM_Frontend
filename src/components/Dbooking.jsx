@@ -298,7 +298,7 @@ const Dbooking = () => {
     <div>
       <div className='appointment'>
         <div className="booking">
-          <h1>Book an Appointment</h1>
+          <h1>Book an <span>Appointment</span></h1>
           <div className="doctor-info">
             <img id="doctor-image" src={doctorInfo.image} alt="img" />
             <h2 id="doctor-name">{doctorInfo.name}</h2>

@@ -27,19 +27,19 @@ const Impacting = ({reviews}) => {
 
   }
   function formHandler(){
-    window.open('https://forms.gle/your-google-form-link', '_blank');
-  }
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSeUu9MR4kf5jp-pOKxGax4LCWfDkNYxEOY68B_lk4Vl9BEdiw/viewform?usp=sf_link", "_blank", "noopener,noreferrer");
+    }
 
   return (
     <div className="flex flex-col w-[90vw] md:w-[60vw] bg-white justify-center items-center mt-3 p-10 transition-all duration-700 hover:shadow-xl rounded-md relative top-5 left-0">
       <ImpactCard review={reviews[index]}/>
       <div className="flex text-3xl mt-1 gap-3 text-violet-400 font-bold mx-auto text-center">
-        <div onClick={leftSlideHandler} className="cursor-pointer hover:text-violet-500"><FiChevronLeft /></div>
-        <div onClick={rightSlideHandler} className="cursor-pointer hover:text-violet-500"><FiChevronRight /></div>
+        <div onClick={leftSlideHandler} className="cursor-pointer text-theme"><FiChevronLeft /></div>
+        <div onClick={rightSlideHandler} className="cursor-pointer text-theme"><FiChevronRight /></div>
         
       </div>
       <div className="mt-6 ">
-        <button className="bg-violet-400 hover:bg-violet-500 transition-all duration-200 cursor-pointer px-10 py-2 rounded-md font-bold text-white text-lg " onClick={formHandler}>Write One</button>
+        <button className="bg-theme hover:bg-royalblue transition-all duration-200 cursor-pointer px-10 py-3 rounded-3xl font-bold text-white text-lg " onClick={formHandler}>Write One</button>
       </div>
       
       

@@ -1,3 +1,8 @@
+.about-parent{
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
 .about-heading{
   padding-top: 6.5rem;
   text-align: center;
@@ -5,7 +10,7 @@
   font-weight: 600;
 }
 .about-heading > span{
-  color: #023460;
+  color: royalblue;
 }
 .about-container{
   display: flex;
@@ -41,17 +46,31 @@
   font-size: 1.4rem;
 }
 
+.handles{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .socials{
-  padding: 0.3rem 0.1rem;
+  padding: 0.3rem 0.2rem;
   background-color: #023460;
   border-radius: 10rem;
-  width: 20rem;
-  margin: auto;
-  margin-bottom: 2rem;
+  /* width: 60%; */
+  margin: 2vh 0;
 }
 .team-icon{
+  margin: 0;
+  margin-top: 0;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  padding: 0;
+  li{
+    display: flex;
+    margin: 1vh 1vw;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -76,8 +95,11 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 666px) {
   .about-heading{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     font-size: 1.7rem;
   }
   .about-text{
