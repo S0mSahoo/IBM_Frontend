@@ -106,7 +106,7 @@ const doctors = [
     image: 'https://media.istockphoto.com/id/675005034/photo/young-smiling-confident-female-doctor-healthcare-professional-with-stethoscope-standing.jpg?s=612x612&w=0&k=20&c=9oou8xYRKw4TkiET_ztzQpZD-Io0ErIVsnjdddRNMOQ=',
     alt: 'Dr. Alice Cooper',
     specialty: 'Rheumatology',
-    description: 'Diagnosis and treatment of autoimmune diseases and inflammatory conditions affecting the joints and muscles.',
+    description: 'Diagnosis and treatment of autoimmune diseases and affecting the joints and muscles.',
     name: 'Dr. Alice Cooper',
     bookingLink: './appointment?doctor=AliceCooper'
   },
