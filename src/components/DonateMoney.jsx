@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../css/DonateMoney.css';
+import Aos from 'aos';
+Aos.init()
 
 const DonateMoney = () => {
     const [amount, setAmount] = useState('3000');
@@ -48,7 +50,7 @@ const DonateMoney = () => {
     };
     let meals = amount===''?Math.ceil(Number(customAmount)/60):Math.ceil(Number(amount)/60)
     return (
-        <div className="donation-form-container">
+        <div data-aos='fade-up' className="donation-form-container">
             <h2>Donate</h2>
             <form className='donate-money' onSubmit={handleSubmit}>
                 <div className="amount-selection">

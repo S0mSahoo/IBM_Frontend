@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../css/DonateFood.css'
+import Aos from 'aos';
+Aos.init()
 
 const DonateFood = () => {
   const [formData, setFormData] = useState({
@@ -71,7 +73,7 @@ const DonateFood = () => {
   };
 
   return (
-    <form className='donate-food' onSubmit={handleSubmit}>
+    <form data-aos='fade-up' className='donate-food' onSubmit={handleSubmit}>
       <h1 className='food-head'>Donate Food</h1>
       <div className="personal-data">
         <div>

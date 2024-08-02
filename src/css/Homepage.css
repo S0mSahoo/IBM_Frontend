@@ -71,6 +71,7 @@
         font-weight: 700;
         line-height: 3vmin;
         padding: 1vh 25vw;
+        margin: 0;
     }
 }
 
@@ -303,10 +304,7 @@
         border-radius: 20px;
         font-size: 2vmin;
         font-weight: 600;
-        a{
-            color: #fff;
-            text-decoration: none;
-        }
+        color: #fff;
     }
 }
 
