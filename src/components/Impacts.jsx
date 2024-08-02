@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Impacting from "./Impacting"
 import reviews from "../data/impactStories";
 
@@ -6,6 +6,9 @@ const Impacts = () => {
   const scrollBar = {
     scrollbarWidth: 'none'
   }
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return( 
   <div className="bg-img flex flex-col w-[100vw] min-h-[100vh] justify-center items-center bg-gray-200 overflow-x-hidden overflow-y-scroll pt-[100px] pb-4" style={scrollBar}>
     <div className="text-center">

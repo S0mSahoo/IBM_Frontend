@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import '../css/EdResources.css';
 
@@ -9,6 +9,9 @@ import { GrArticle } from "react-icons/gr";
 import { MdOndemandVideo } from "react-icons/md";
 
 const EdResources = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
     <div className='parent'>
         {/* heading */}

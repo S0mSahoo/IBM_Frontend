@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/DoctorsAvailable.css';
 
 const doctors = [
@@ -226,6 +226,9 @@ const doctors = [
 
 
 const DoctorsAvailable = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  })
   return (
     <main>
       <section className="services bookingd">

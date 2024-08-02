@@ -1,5 +1,5 @@
 // src/DonationPortal.js
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/Donation.css';
 import DonateMoney from './DonateMoney';
 import DonateFood from './DonateFood';
@@ -12,6 +12,9 @@ const Donation = () => {
   const handleClick = (type) => {
     setDonationType(type);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div id='donation' data-aos='fade-up'>
       <h1 data-aos='fade-up' className='donation-head'>Make a&nbsp;<span> Donation!!</span></h1>
