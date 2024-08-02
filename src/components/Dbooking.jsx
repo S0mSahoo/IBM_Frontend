@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css'; 
+import 'flatpickr/dist/flatpickr.min.css';
 import '../css/DoctorsBooking.css';
+import { AiFillTags } from "react-icons/ai";
 
 import icon from '../assets/data/doctor.jpeg';
 
 
 const Dbooking = () => {
 
-  
+
   const [doctor, setDoctor] = useState('');
   const [doctorInfo, setDoctorInfo] = useState({
     name: 'Select a Doctor',
@@ -198,9 +199,9 @@ const Dbooking = () => {
       description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
       bookingLink: './appointment?doctor=SophiaLee'
     },
-    
+
   };
-  
+
 
   useEffect(() => {
     const initializeFlatpickr = () => {
@@ -294,7 +295,7 @@ const Dbooking = () => {
             <h2 id="doctor-name">{doctorInfo.name}</h2>
             <p id="doctor-specialization">{doctorInfo.specialization}</p>
           </div>
-          
+
           <div className='patient-details'>
             <form id="appointment-form" onSubmit={handleSubmit}>
               <label htmlFor="name">Name:</label>
@@ -333,6 +334,8 @@ const Dbooking = () => {
               {appointments.map((appointment, index) => (
                 <li key={index}>
                   <div className="doc-name">
+                    {/* <AiFillTags className='icons dots' /> */}
+                    <div className='dot'></div>
                     {appointment.doctor}
                   </div>
                   <div className="app-info">
