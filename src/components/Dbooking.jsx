@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css'; 
+import 'flatpickr/dist/flatpickr.min.css';
 import '../css/DoctorsBooking.css';
+import { AiFillTags } from "react-icons/ai";
 
 import icon from '../assets/data/doctor.jpeg';
 
 
 const Dbooking = () => {
 
-  
+
   const [doctor, setDoctor] = useState('');
   const [doctorInfo, setDoctorInfo] = useState({
     name: 'Select a Doctor',
@@ -198,9 +199,9 @@ const Dbooking = () => {
       description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
       bookingLink: './appointment?doctor=SophiaLee'
     },
-    
+
   };
-  
+
 
   useEffect(() => {
     const initializeFlatpickr = () => {
@@ -221,14 +222,20 @@ const Dbooking = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     const urlParams = new URLSearchParams(window.location.search);
     const doctorParam = urlParams.get('doctor');
-
+  
     if (doctorParam && doctors[doctorParam]) {
       setDoctorInfo(doctors[doctorParam]);
     }
+  
+    const storedAppointments = localStorage.getItem('appointments');
+    if (storedAppointments) {
+      setAppointments(JSON.parse(storedAppointments));
+    }
   }, []);
+  
 
   const handleDoctorChange = (event) => {
     const selectedDoctor = event.target.value;
@@ -247,13 +254,13 @@ const Dbooking = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+  
     const form = event.target;
     const name = form.name.value;
     const email = form.email.value;
     const date = form.date.value;
     const time = form.time.value;
-
+  
     if (doctor && name && email && date && time) {
       const newAppointment = {
         name,
@@ -262,10 +269,12 @@ const Dbooking = () => {
         date,
         time
       };
-
-      setAppointments([...appointments, newAppointment]);
-
-      // Reset form
+  
+      const updatedAppointments = [...appointments, newAppointment];
+      setAppointments(updatedAppointments);
+  
+      localStorage.setItem('appointments', JSON.stringify(updatedAppointments));
+  
       form.reset();
       setDoctor('');
       setDoctorInfo({
@@ -275,6 +284,7 @@ const Dbooking = () => {
       });
     }
   };
+  
 
   function formatDate(dateString) {
     const [year, month, day] = dateString.split('-');
@@ -294,7 +304,7 @@ const Dbooking = () => {
             <h2 id="doctor-name">{doctorInfo.name}</h2>
             <p id="doctor-specialization">{doctorInfo.specialization}</p>
           </div>
-          
+
           <div className='patient-details'>
             <form id="appointment-form" onSubmit={handleSubmit}>
               <label htmlFor="name">Name:</label>
@@ -333,7 +343,9 @@ const Dbooking = () => {
               {appointments.map((appointment, index) => (
                 <li key={index}>
                   <div className="doc-name">
+                    <div className='dot'></div>
                     {appointment.doctor}
+                    {/* <AiFillTags className='icons' /> */}
                   </div>
                   <div className="app-info">
                     <span className="app-date">{formatDate(appointment.date)}</span>
