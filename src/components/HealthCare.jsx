@@ -12,7 +12,7 @@ export default function HealthCare() {
           <h1 data-aos='fade-up'>For your <strong id='pink'>physical health</strong>. For your <strong id='green'>mental health</strong>. For <strong id='cyan'>clinicians</strong>. For <strong id='violet'>hospitals</strong>. For all of it in one place. For life.</h1>
           <h4>A high-quality care experience—anywhere, anytime</h4>
           <div className="click">
-            <button><Link to='/booking'>Get Care Now</Link></button>
+            <Link to='/booking'>Get Care Now</Link>
           </div>
         </div>
       </div>

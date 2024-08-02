@@ -57,32 +57,32 @@ const Homepage = () => {
                 </div>
                 <div className="page2" >
                     <div id="left" data-aos='fade-up'>
-                        <div data-aos='fade-up' data-aos-delay='50'>With a<strong>Soft Drink</strong>in hand, one might just be sipping their way to becoming a statistic among the<strong>8.9 million</strong>osteoporotic fractures annually – that's a bone breaking every<strong>3 seconds</strong></div>
-                        <div data-aos='fade-up' data-aos-delay='150'><strong>2.8 million</strong>people die each year as a result of being overweight or obese.
+                        <div data-aos='fade-up' data-aos-delay='50' onClick={() => navigate('/appointment')}>With a<strong>Soft Drink</strong>in hand, one might just be sipping their way to becoming a statistic among the<strong>8.9 million</strong>osteoporotic fractures annually – that's a bone breaking every<strong>3 seconds</strong></div>
+                        <div data-aos='fade-up' data-aos-delay='150' onClick={() => navigate('/appointment')}><strong>2.8 million</strong>people die each year as a result of being overweight or obese.
                         </div>
                     </div>
                     <div id="mid" data-aos='fade-up'>
                         <div id="top">
-                            <div data-aos='fade-up' data-aos-delay='150'><strong>46%</strong> adults with hypertension are unaware of their condition.
+                            <div data-aos='fade-up' data-aos-delay='150' onClick={() => navigate('/appointment')}><strong>46%</strong> adults with hypertension are unaware of their condition.
                             </div>
-                            <div data-aos='fade-up' data-aos-delay='100'>Sleep apnea can reduce life expectancy by up to<strong>15 years</strong></div>
+                            <div data-aos='fade-up' data-aos-delay='100' onClick={() => navigate('/appointment')}>Sleep apnea can reduce life expectancy by up to<strong>15 years</strong></div>
                         </div>
                         <div id="center">
-                            <div data-aos='fade-up' data-aos-delay='100'><strong>600 million</strong>people are going to face hunger by <strong>2030 <span>with</span> 1 in 3</strong> may striggle with moderate to severe Food Insecurity.
+                            <div data-aos='fade-up' data-aos-delay='100' onClick={() => navigate('/donation')}><strong>600 million</strong>people are going to face hunger by <strong>2030 <span>with</span> 1 in 3</strong> may striggle with moderate to severe Food Insecurity.
                                 <p>[All the diseases here are ignited by malnutrition and poor eating and drinking habits.]</p>
                             </div>
                         </div>
                         <div id="bottom">
-                            <div data-aos='fade-up'><strong>5%</strong> of the global population is affected by Hyperthyroidism.</div>
-                            <div data-aos='fade-up'><strong>50 million</strong>years of healthy life lost in 2019 by Anaemia.
+                            <div data-aos='fade-up' onClick={() => navigate('/appointment')}><strong>5%</strong> of the global population is affected by Hyperthyroidism.</div>
+                            <div data-aos='fade-up' onClick={() => navigate('/appointment')}><strong>50 million</strong>years of healthy life lost in 2019 by Anaemia.
                                 <p>Little to no progress has been made since 2000.</p>
                             </div>
                         </div>
                     </div>
                     <div id="right" data-aos='fade-up'>
-                        <div data-aos='fade-up'><strong>3 million</strong>youngs lose their life craving for food (Malnutrition), with<strong>821 million</strong>people are chronically undernourished.
+                        <div data-aos='fade-up' onClick={applyMeal}><strong>3 million</strong>youngs lose their life craving for food (Malnutrition), with<strong>821 million</strong>people are chronically undernourished.
                         </div>
-                        <div data-aos='fade-up'><strong>5%</strong>adults suffer from depression globally, with over<strong>700,000</strong>people dying from suicide due to depression each year.</div>
+                        <div data-aos='fade-up' onClick={() => navigate('/appointment')}><strong>5%</strong>adults suffer from depression globally, with over<strong>700,000</strong>people dying from suicide due to depression each year.</div>
                     </div>
                 </div>
                 <div className="page3" data-aos='fade-up'>
