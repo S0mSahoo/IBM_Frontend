@@ -222,14 +222,20 @@ const Dbooking = () => {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     const urlParams = new URLSearchParams(window.location.search);
     const doctorParam = urlParams.get('doctor');
-
+  
     if (doctorParam && doctors[doctorParam]) {
       setDoctorInfo(doctors[doctorParam]);
     }
+  
+    const storedAppointments = localStorage.getItem('appointments');
+    if (storedAppointments) {
+      setAppointments(JSON.parse(storedAppointments));
+    }
   }, []);
+  
 
   const handleDoctorChange = (event) => {
     const selectedDoctor = event.target.value;
@@ -248,13 +254,13 @@ const Dbooking = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+  
     const form = event.target;
     const name = form.name.value;
     const email = form.email.value;
     const date = form.date.value;
     const time = form.time.value;
-
+  
     if (doctor && name && email && date && time) {
       const newAppointment = {
         name,
@@ -263,10 +269,12 @@ const Dbooking = () => {
         date,
         time
       };
-
-      setAppointments([...appointments, newAppointment]);
-
-      // Reset form
+  
+      const updatedAppointments = [...appointments, newAppointment];
+      setAppointments(updatedAppointments);
+  
+      localStorage.setItem('appointments', JSON.stringify(updatedAppointments));
+  
       form.reset();
       setDoctor('');
       setDoctorInfo({
@@ -276,6 +284,7 @@ const Dbooking = () => {
       });
     }
   };
+  
 
   function formatDate(dateString) {
     const [year, month, day] = dateString.split('-');
@@ -334,9 +343,9 @@ const Dbooking = () => {
               {appointments.map((appointment, index) => (
                 <li key={index}>
                   <div className="doc-name">
-                    {/* <AiFillTags className='icons dots' /> */}
                     <div className='dot'></div>
                     {appointment.doctor}
+                    {/* <AiFillTags className='icons' /> */}
                   </div>
                   <div className="app-info">
                     <span className="app-date">{formatDate(appointment.date)}</span>
