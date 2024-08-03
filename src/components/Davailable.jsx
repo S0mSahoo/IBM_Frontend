@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import '../css/DoctorsAvailable.css';
 import { Link } from 'react-router-dom';
+import Aos from 'aos';
+Aos.init()
 
 const doctors = [
   {
@@ -177,12 +179,12 @@ const DoctorsAvailable = () => {
     window.scrollTo(0, 0)
   })
   return (
-    <main>
+    <main data-aos='fade-up'>
       <section className="services">
         <h1><span>Doctors</span> Available</h1>
         <div className="service-cards">
           {doctors.map((doctor) => (
-            <div key={doctor.id} className="service-card">
+            <div key={doctor.id} data-aos='fade-up' className="service-card">
               <img src={doctor.image} alt={doctor.alt} />
               <h2>{doctor.specialty}</h2>
               <p>{doctor.description}</p>
