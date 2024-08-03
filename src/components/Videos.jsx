@@ -15,7 +15,7 @@ const Videos = () => {
         {videos.map((video) => (
           <div className='video-content' key={video.id}>
             <div className="iframe-video ratio ratio-21x9">
-              <iframe src={video.content} title="YouTube video"></iframe>
+              <iframe src={video.content} title="YouTube video" allowFullScreen></iframe>
             </div>
               <h2>{video.title}</h2>
               <p>{video.owner}</p>

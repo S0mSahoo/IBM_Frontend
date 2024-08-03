@@ -10,10 +10,15 @@ const BOT_IMG = "./bot.png";
 const PERSON_IMG = "./user.png";
 const BOT_NAME = "HNN Quizbot";
 const PERSON_NAME = "(You)";
+document.querySelector('.msg-info-name').innerHTML = BOT_NAME
+document.querySelector('.msg-info-time').innerHTML = formatDate(new Date())
 
 let i = 0;
 let used_nums = [];
-addChat(BOT_NAME, BOT_IMG, "left", questions[i]+options[i]);
+(async () => {
+  await delay(1500)
+  addChat(BOT_NAME, BOT_IMG, "left", questions[i]+options[i]);
+})()
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }

@@ -4,7 +4,7 @@ import '../css/Chatbot.css';
 const Chatbot = () => {
 
 	const f = document.createElement('iframe');
-	f.src = './HNN-quizbot/quizbot.html';
+	f.src = '/HNN-quizbot/quizbot.html';
 	f.className = "chat-iframe";
 
 	const b = document.createElement("div");
@@ -44,7 +44,7 @@ const Chatbot = () => {
 
 	return (
 		<div className="chat-entry" id="div_0" onClick={Expand}>
-			<img src="HNN-quizbot/robot.png" alt="..." />
+			<img src='/HNN-quizbot/robot.png' alt="..." />
 		</div>
 	);
 };
