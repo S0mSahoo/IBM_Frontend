@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../css/DoctorsAvailable.css';
+import { Link } from 'react-router-dom';
 
 const doctors = [
   {
@@ -9,7 +10,7 @@ const doctors = [
     specialty: 'General Consultation',
     description: 'Our experienced general physicians provide comprehensive health care for all age groups.',
     name: 'Dr. John Doe',
-    bookingLink: './appointment?doctor=JohnDoe'
+    bookingLink: '/appointment?doctor=JohnDoe'
   },
   {
     id: 2,
@@ -18,7 +19,7 @@ const doctors = [
     specialty: 'Pediatric Care',
     description: 'Specialized care for infants, children, and adolescents by our expert pediatricians.',
     name: 'Dr. Sarah Williams',
-    bookingLink: './appointment?doctor=SarahWilliams'
+    bookingLink: '/appointment?doctor=SarahWilliams'
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const doctors = [
     specialty: 'Dermatology',
     description: 'Advanced skin care treatments and procedures by our skilled dermatologists.',
     name: 'Dr. Alan Brown',
-    bookingLink: './appointment?doctor=AlanBrown'
+    bookingLink: '/appointment?doctor=AlanBrown'
   },
   {
     id: 4,
@@ -36,7 +37,7 @@ const doctors = [
     specialty: 'Cardiology',
     description: 'Expert cardiac care including diagnosis, treatment, and prevention of heart conditions.',
     name: 'Dr. Jane Smith',
-    bookingLink: './appointment?doctor=JaneSmith'
+    bookingLink: '/appointment?doctor=JaneSmith'
   },
   {
     id: 5,
@@ -45,7 +46,7 @@ const doctors = [
     specialty: 'Orthopedics',
     description: 'Comprehensive care for bone, joint, and muscle conditions by our orthopedic specialists.',
     name: 'Dr. Michael Johnson',
-    bookingLink: './appointment?doctor=MichaelJohnson'
+    bookingLink: '/appointment?doctor=MichaelJohnson'
   },
   {
     id: 6,
@@ -54,7 +55,7 @@ const doctors = [
     specialty: 'Ophthalmology',
     description: 'Advanced eye care services including surgeries and treatments for various eye conditions.',
     name: 'Dr. Emily Davis',
-    bookingLink: './appointment?doctor=EmilyDavis'
+    bookingLink: '/appointment?doctor=EmilyDavis'
   },
   {
     id: 7,
@@ -63,7 +64,7 @@ const doctors = [
     specialty: 'Dental Care',
     description: 'Full range of dental services including cleanings, fillings, and cosmetic procedures.',
     name: 'Dr. Mark Wilson',
-    bookingLink: './appointment?doctor=MarkWilson'
+    bookingLink: '/appointment?doctor=MarkWilson'
   },
   {
     id: 8,
@@ -72,7 +73,7 @@ const doctors = [
     specialty: 'Gynecology',
     description: 'Comprehensive women’s health services including prenatal care and gynecological surgeries.',
     name: 'Dr. Linda Taylor',
-    bookingLink: './appointment?doctor=LindaTaylor'
+    bookingLink: '/appointment?doctor=LindaTaylor'
   },
   {
     id: 9,
@@ -81,7 +82,7 @@ const doctors = [
     specialty: 'Neurology',
     description: 'Expert diagnosis and treatment of neurological disorders, including headaches and epilepsy.',
     name: 'Dr. Robert Brown',
-    bookingLink: './appointment?doctor=RobertBrown'
+    bookingLink: '/appointment?doctor=RobertBrown'
   },
   {
     id: 10,
@@ -90,7 +91,7 @@ const doctors = [
     specialty: 'Endocrinology',
     description: 'Specialized care for hormone-related conditions and disorders such as diabetes and thyroid issues.',
     name: 'Dr. Laura Green',
-    bookingLink: './appointment?doctor=LauraGreen'
+    bookingLink: '/appointment?doctor=LauraGreen'
   },
   {
     id: 11,
@@ -99,7 +100,7 @@ const doctors = [
     specialty: 'Hematology',
     description: 'Expert care for blood disorders, including anemia, leukemia, and clotting issues.',
     name: 'Dr. Michael Adams',
-    bookingLink: './appointment?doctor=MichaelAdams'
+    bookingLink: '/appointment?doctor=MichaelAdams'
   },
   {
     id: 12,
@@ -108,7 +109,7 @@ const doctors = [
     specialty: 'Rheumatology',
     description: 'Diagnosis and treatment of autoimmune diseases and affecting the joints and muscles.',
     name: 'Dr. Alice Cooper',
-    bookingLink: './appointment?doctor=AliceCooper'
+    bookingLink: '/appointment?doctor=AliceCooper'
   },
   {
     id: 13,
@@ -117,7 +118,7 @@ const doctors = [
     specialty: 'Gastroenterology',
     description: 'Comprehensive care for digestive system disorders, including IBS, liver diseases, and more.',
     name: 'Dr. David Lee',
-    bookingLink: './appointment?doctor=DavidLee'
+    bookingLink: '/appointment?doctor=DavidLee'
   },
   {
     id: 14,
@@ -126,7 +127,7 @@ const doctors = [
     specialty: 'Infectious Diseases',
     description: 'Specialized treatment for infections caused by bacteria, viruses, fungi, and parasites.',
     name: 'Dr. Nancy Wilson',
-    bookingLink: './appointment?doctor=NancyWilson'
+    bookingLink: '/appointment?doctor=NancyWilson'
   },
   {
     id: 15,
@@ -135,7 +136,7 @@ const doctors = [
     specialty: 'Pulmonology',
     description: 'Care for respiratory conditions, including asthma, COPD, and lung infections.',
     name: 'Dr. Charles King',
-    bookingLink: './appointment?doctor=CharlesKing'
+    bookingLink: '/appointment?doctor=CharlesKing'
   },
   {
     id: 16,
@@ -144,7 +145,7 @@ const doctors = [
     specialty: 'Urology',
     description: 'Expert treatment for urinary tract and male reproductive system disorders.',
     name: 'Dr. Olivia Martinez',
-    bookingLink: './appointment?doctor=OliviaMartinez'
+    bookingLink: '/appointment?doctor=OliviaMartinez'
   },
   {
     id: 17,
@@ -153,7 +154,7 @@ const doctors = [
     specialty: 'Plastic Surgery',
     description: 'Cosmetic and reconstructive surgical procedures to enhance appearance and restore function.',
     name: 'Dr. James Wilson',
-    bookingLink: './appointment?doctor=JamesWilson'
+    bookingLink: '/appointment?doctor=JamesWilson'
   },
   {
     id: 18,
@@ -162,7 +163,7 @@ const doctors = [
     specialty: 'Oncology',
     description: 'Comprehensive care for cancer patients, including diagnosis, treatment, and follow-up care.',
     name: 'Dr. Sophia Lee',
-    bookingLink: './appointment?doctor=SophiaLee'
+    bookingLink: '/appointment?doctor=SophiaLee'
   },
   
  
@@ -186,7 +187,7 @@ const DoctorsAvailable = () => {
               <h2>{doctor.specialty}</h2>
               <p>{doctor.description}</p>
               <p><strong>Doctor:</strong> {doctor.name}</p>
-              <a href={doctor.bookingLink} className="btn">Book Appointment</a>
+              <Link to={doctor.bookingLink} className="btn">Book Appointment</Link>
             </div>
           ))}
         </div>
