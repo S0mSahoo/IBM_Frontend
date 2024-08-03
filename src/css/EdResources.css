@@ -28,7 +28,7 @@
 .parent-cont{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    /* gap: 1rem; */
     justify-content:center;
     margin-top: 6em;
 }
@@ -96,12 +96,20 @@
   /* For mobiles: */
   .ed-heading{
     padding-top: 2rem;
-    font-size: 3rem;
+    font-size: 1.6rem;
+  }
+  .parent-cont{
+    margin-top: 0;
+    margin: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0;
+    /* margin-top: 0; */
   }
   .flip-card{
     /* border: 2px solid red;  */
-    width: 9.2rem;
-    height: 12rem; 
+    width: 8.1rem;
+    height: 10rem; 
   }
   .icons{
     padding: 2rem;
