@@ -1,15 +1,16 @@
 import React from 'react'
 import '../css/Podcasts.css'
 import podcasts from '../data/podcasts.json'
-
+import Aos from 'aos'
+Aos.init()
 const Podcasts = () => {
   return (
-    <div className="podcasts-container">
+    <div data-aos='fade-up' className="podcasts-container">
       <h2 className='pod-head'>Podcasts 🎙️</h2>
       
       <div className="podcasts-grid">
         {podcasts.map(story => (
-        <div key={story.id} className="podcasts-card">
+        <div key={story.id} data-aos='fade-up' className="podcasts-card">
           <div className='pod-img-cont'>
             {/* <img src={story.image} alt={story.title} className="podcasts-image" /> */}
             <img src="https://img.freepik.com/premium-vector/multicolor-sound-wave-from-equalizer_97886-192.jpg?w=740" alt={story.title} className="podcasts-image" />

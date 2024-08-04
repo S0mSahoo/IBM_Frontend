@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import '../css/DoctorsBooking.css';
-import { AiFillTags } from "react-icons/ai";
+// import { AiFillTags } from "react-icons/ai";
+import Aos from 'aos';
 
 import icon from '../assets/data/doctor.jpeg';
-
+Aos.init()
 
 const Dbooking = () => {
 
@@ -295,7 +296,7 @@ const Dbooking = () => {
   }
 
   return (
-    <div>
+    <div data-aos='fade-up'>
       <div className='appointment'>
         <div className="booking">
           <h1>Book an <span>Appointment</span></h1>

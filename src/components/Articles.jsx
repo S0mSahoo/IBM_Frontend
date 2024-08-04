@@ -1,18 +1,19 @@
 import React from 'react'
 import '../css/Articles.css';
 import articles from '../data/articles.json'
-
+import Aos from 'aos';
+Aos.init()
 const Articles = () => {
 
   return (
-    <div className='articles-parent'>
+    <div data-aos='fade-up' className='articles-parent'>
       <div>
         <h1 className='articles-heading'>Articles 📑</h1>
       </div>
 
       <div className='articles-grid'>
         {articles.map(story => (
-          <div key={story.id} className="articles-card">
+          <div key={story.id} data-aos='fade-up' className="articles-card">
             <div className="article-img-cont">
               <img src={story.image} width="350" height="250" alt={story.id} />
             </div>
