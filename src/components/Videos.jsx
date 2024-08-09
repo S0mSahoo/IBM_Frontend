@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/Videos.css';
 import videos from '../data/videos.json';
 import Aos from 'aos';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 Aos.init()
 const Videos = () => {
   return (

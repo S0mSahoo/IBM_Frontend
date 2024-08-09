@@ -2,7 +2,8 @@
   background-image: url('https://img.freepik.com/free-vector/modern-abstract-white-minimal-background_84443-8340.jpg?t=st=1722252547~exp=1722256147~hmac=24ab5e8b2437f0d2e5f9e5e126d4a6db64df81a421d48dad1906fb4e1688a7f2&w=996');
 }
 .eBooks-heading{
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 7vmin;
   padding-top: 5rem;
   text-align: center;
   span{

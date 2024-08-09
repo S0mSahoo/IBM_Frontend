@@ -18,8 +18,9 @@
     margin-top: 2.5em;
     margin-bottom: 3rem;
     text-align: center;
+    font-size: 7vmin;
     /* font-size: 30px; */
-    font-weight: bold;
+    font-weight: 800;
     /* margin: 1em 0; */
 }
 .ed-heading > span{
@@ -30,7 +31,7 @@
     flex-wrap: wrap;
     /* gap: 1rem; */
     justify-content:center;
-    margin-top: 6em;
+    /* margin-top: 6em; */
 }
 .icons{
   padding: 2rem 3rem;
@@ -94,9 +95,13 @@
 
 @media only screen and (max-width: 550px) {
   /* For mobiles: */
+  .parent-sub{
+    max-width: 100%;
+  }
   .ed-heading{
     padding-top: 2rem;
     font-size: 1.6rem;
+    margin-bottom: 5vh;
   }
   .parent-cont{
     margin-top: 0;

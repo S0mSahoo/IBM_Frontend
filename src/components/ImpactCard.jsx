@@ -7,9 +7,9 @@ const ImpactCard = ({review}) => {
     return (
         <div className="relative flex flex-col md:relative h-fit">
 
-            <div className="flex justify-content-center">
-                <div className=" w-[140px] h-[140px] z-25"><img className="aspect-square object-cover rounded-full" src={review.image}  /></div>
-                <div className=" w-[22vw] h-[22vw] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]"></div>
+            <div className="flex justify-center">
+                <div className="flex w-[140px] h-[140px]"><img className="aspect-square object-cover rounded-full" src={review.image}  /></div>
+                {/* <div className=" w-[22vw] h-[22vw] bg-violet-500 rounded-full absolute top-[-6px] z-[-10] left-[10px]"></div> */}
             </div>
 
             <div className="text-center my-3">

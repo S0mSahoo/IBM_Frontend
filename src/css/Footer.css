@@ -1,3 +1,12 @@
+.container{
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
 .footer {
     background-color: #023460;
     padding: 20px 0;
