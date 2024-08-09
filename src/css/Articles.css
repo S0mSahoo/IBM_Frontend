@@ -3,7 +3,8 @@
 }
 .articles-heading{
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 7vmin;
   padding: 5rem 1rem 1rem 1rem;
 }
 .articles-grid{
