@@ -2,13 +2,14 @@ import React, { useEffect } from 'react'
 import '../css/Nav.css';
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/all';
 import { Link } from 'react-router-dom';
 import logo from '../assets/Fascinate_theme.png'
 export default function Nav({onRender}) {
     useEffect(() => {
         onRender();
     }, [onRender]);
-    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(useGSAP, ScrollTrigger);
     useGSAP(
         () => {
             // gsap code here...
@@ -24,25 +25,31 @@ export default function Nav({onRender}) {
                 duration: .4,
                 stagger: 0.2
             })
-            tl.from('#n_right *', {
+            tl.from('#n_right', {
                 y: -10,
                 opacity: 0,
                 duration: .4,
-                stagger: 0.2
+                stagger: 0.2,
             })
         },
     )
-
-    function toClick() {
-        navigator.clipboard.writeText(document.querySelector('.number').innerHTML)
-            .then(() => {
-                closeHam();
-                alert("Number Copied: " + document.querySelector('.number').innerText);
+    useGSAP(
+        () => {
+            gsap.to('#nav', {
+                backgroundColor: '#ffffff1d',
+                backdropFilter: 'blur(5px)',
+                // backgroundColor: '#fff',
+                duration: .5,
+                ease: 'power3.out',
+                scrollTrigger:{
+                    // markers: true,
+                    start: 'top -10px',
+                    end: 'top -100px',
+                    scrub: 1
+                }
             })
-            .catch(err => {
-                console.error('Failed to copy: ', err);
-            });
-    }
+        }
+    )
 
     function openHam() {
         document.getElementById('nav').style.backdropFilter = 'none';

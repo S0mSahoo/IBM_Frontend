@@ -97,7 +97,7 @@ const Homepage = () => {
                     <span data-aos='fade-up'>Apply for meal support</span>
                     <h1 data-aos='fade-up'>Partner with us to end Hunger</h1>
                     <p data-aos='fade-up'>Reach out to us if you're an NGO, private organisation or educational institute that is in need of food support.</p>
-                    <button onClick={applyMeal} data-aos='fade-up' data-aos-offset='100'>Partner with Us</button>
+                    <button onClick={applyMeal} data-aos='fade-up'>Partner with Us</button>
                 </div>
             </div>
         </div>
