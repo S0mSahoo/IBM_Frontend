@@ -300,10 +300,16 @@
         border: none;
         background-color: #023460;
         padding: 2vh 3vw;
-        border-radius: 20px;
+        border-radius: 30px;
         font-size: 2vmin;
         font-weight: 600;
         color: #fff;
+        transition: scale .5s cubic-bezier(0.075, 0.82, 0.165, 1), border-radius .5s cubic-bezier(0.075, 0.82, 0.165, 1), background-color .5s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+        &:hover{
+            border-radius: 15px;
+            scale: 1.08;
+            background-color: #03427a;
+        }
     }
 }
 

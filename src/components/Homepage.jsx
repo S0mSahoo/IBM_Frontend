@@ -86,18 +86,18 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="page3" data-aos='fade-up'>
-                    <video muted autoPlay loop src="https://s3.amazonaws.com/images.teladoc.com/teladoc-health-next/video/home-hero-formotion.mp4" data-aos='fade-up'></video>
-                    <span data-aos='fade-up'>24/7 Telemedicine Service</span>
-                    <h1 data-aos='fade-up'>Health should always be within reach</h1>
-                    <p data-aos='fade-up'>See a doctor or therapist from home, using your phone, tablet or computer.</p>
-                    <button onClick={() => navigate('/booking')} data-aos='fade-up' data-aos-offset='90'>Find your Doctor</button>
+                    <video muted autoPlay loop src="https://s3.amazonaws.com/images.teladoc.com/teladoc-health-next/video/home-hero-formotion.mp4"></video>
+                    <span>24/7 Telemedicine Service</span>
+                    <h1>Health should always be within reach</h1>
+                    <p>See a doctor or therapist from home, using your phone, tablet or computer.</p>
+                    <button onClick={() => navigate('/booking')}>Find your Doctor</button>
                 </div>
                 <div className=" page3 page4" data-aos='fade-up'>
-                    <img data-aos='fade-up' src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..." />
-                    <span data-aos='fade-up'>Apply for meal support</span>
-                    <h1 data-aos='fade-up'>Partner with us to end Hunger</h1>
-                    <p data-aos='fade-up'>Reach out to us if you're an NGO, private organisation or educational institute that is in need of food support.</p>
-                    <button onClick={applyMeal} data-aos='fade-up' data-aos-offset='100'>Partner with Us</button>
+                    <img src="https://b.zmtcdn.com/fi_assets/762402e988f933f54af71bc448356a391585296130.jpeg" alt="..." />
+                    <span>Apply for meal support</span>
+                    <h1>Partner with us to end Hunger</h1>
+                    <p>Reach out to us if you're an NGO, private organisation or educational institute that is in need of food support.</p>
+                    <button onClick={applyMeal}>Partner with Us</button>
                 </div>
             </div>
         </div>

@@ -28,14 +28,14 @@
     margin-bottom: 20px;
     transition: font-size 1s;
     font-weight: 700;
-    span{
-      color: royalblue;
-    }
     color: #023460;
     transition: font-size 1s;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 9vmin;
+    span{
+      color: royalblue;
+    }
   }
 
   .doctor-info {
@@ -59,7 +59,6 @@
     }
 
     h2 {
-      /* color: #00695c; */
       color: #023460;
       font-size: 1.8em;
       margin: 0;
@@ -67,7 +66,6 @@
 
     p {
       color: royalblue;
-      color: #023460b7;
       font-size: 1.2em;
     }
   }
@@ -164,7 +162,6 @@
     color: royalblue;
     font-size: 3.5rem;
     color: #023460;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -221,10 +218,6 @@
       gap: 7px;
     }
   }
-}
-
-.appointment-details li:last-child {
-  /* border-bottom: none; */
 }
 
 .appointment-details .item-info {
