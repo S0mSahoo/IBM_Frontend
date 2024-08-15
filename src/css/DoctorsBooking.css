@@ -220,10 +220,6 @@
   }
 }
 
-.appointment-details li:last-child {
-  /* border-bottom: none; */
-}
-
 .appointment-details .item-info {
 
   font-size: 16px;
