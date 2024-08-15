@@ -37,8 +37,6 @@ export default function Nav({onRender}) {
         () => {
             gsap.to('#nav', {
                 backgroundColor: '#ffffff1d',
-                backdropFilter: 'blur(5px)',
-                // backgroundColor: '#fff',
                 duration: .5,
                 ease: 'power3.out',
                 scrollTrigger:{
@@ -60,12 +58,11 @@ export default function Nav({onRender}) {
     }
 
     function closeHam() {
-        // console.log('Hello')
-        document.getElementById('nav').style.backdropFilter = 'blur(5px)';
         document.getElementById('n_cross').style.opacity = '0';
         document.getElementById('n_cross').style.zIndex = '-1';
         document.getElementById('n_cross').style.visibility = 'hidden';
         document.getElementById('n_cross').style.backdropFilter = 'none';
+        document.getElementById('nav').style.backdropFilter = 'blur(5px)';
     }
 
     return (
